@@ -81,6 +81,13 @@ generated: 2026-09-15
 - 第三步：检查盘后变动、资金、保证金和下一时段的风险承受能力。
 - 本课解释操作风险，不提供应持有到期或提前平仓的建议。
 
+## 相关概念
+
+- [[single-leg-payoff|单腿盈亏结构]] — 指派风险只在接近实值的单腿或组合腿上才显著。
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — 到期日附近的 OI 聚集能放大结算与换手压力。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 接近到期的高 Gamma 仓位是对冲流与钉住效应的主要来源。
+- [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — 结算方式决定到期现金流的单位与点值换算。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -136,6 +143,13 @@ Multi-leg structures do not automatically remove this risk. If one leg is exerci
 - Step 2: Map each leg's post-settlement exposure under all, partial, and no-exercise outcomes.
 - Step 3: Check after-hours movement, funding, margin, and next-session risk capacity.
 - This lesson explains operating risk and does not advise holding to expiry or closing early.
+
+## Related Concepts
+
+- [[single-leg-payoff|Single-Leg Payoff Structure]] — Assignment risk becomes material only on single legs or structure legs near the money.
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — Clustered open interest near expiry can amplify settlement and roll pressure.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — High-gamma positioning near expiry is the main source of hedging flow and pinning.
+- [[futures-contract-mechanics-tick-value|Futures Contract Mechanics: Tick Size, Tick Value, And Rolls]] — Settlement method sets the units and tick-value arithmetic of the expiry cash flow.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

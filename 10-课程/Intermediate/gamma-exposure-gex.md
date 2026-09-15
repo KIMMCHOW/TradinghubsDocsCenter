@@ -4,7 +4,7 @@ title_en: "GEX / vGEX: How To Read Gamma Exposure"
 slug: "gamma-exposure-gex"
 type: lesson
 level: Intermediate
-order: 44
+order: 46
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "17 分钟"
@@ -112,6 +112,13 @@ Volume 包含开仓、平仓、换手与多腿交易，所以 vGEX 不是新增�
 - 高 GEX 区域必须和 OI、Flow、Volume、IV 以及期货盘面反应一起看。
 - 0DTE 和临近到期时，GEX 变化会更快。
 
+## 相关概念
+
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — GEX 的输入是逐节点的 Gamma，而不是组合层面的单一总数。
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — 敞口以 OI 为权重基础，存量口径错误会直接扭曲读数。
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — Gamma 敞口解释了做市商为何必须随价格变化调整对冲。
+- [[charm-exposure-chex|CHEX：Charm Exposure 怎么看]] — GEX 描述价格维度，CHEX 描述同一仓位在时间维度上的变化。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -198,6 +205,13 @@ If price approaches a GEX strike that is prominent within the same view while fl
 - GEX is a modeled sensitivity reading, not directional odds or a dealer-inventory label.
 - High-GEX areas must be read with OI, flow, volume, IV, and futures price reaction.
 - In 0DTE and near-expiry windows, GEX can change faster.
+
+## Related Concepts
+
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — GEX takes per-node gamma rather than a single book-level number.
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — Exposure is weighted by OI, so a wrong standing-position convention distorts the reading.
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — Gamma exposure explains why a market maker must adjust the hedge as price moves.
+- [[charm-exposure-chex|CHEX: How To Read Charm Exposure]] — GEX describes the price dimension, and CHEX describes how the same book changes over time.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

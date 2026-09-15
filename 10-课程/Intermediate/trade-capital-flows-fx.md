@@ -107,6 +107,13 @@ generated: 2026-09-15
 - 利差约束远期定价，但风险溢价、基差与政策改变持有回报。
 - 本课不预测任何货币对，也不提供跨境投资或杠杆建议。
 
+## 相关概念
+
+- [[rates-treasuries-central-bank-transmission|利率、国债与央行传导]] — 利差是最直接的跨境资金驱动，也是汇率预期的锚之一。
+- [[business-cycle-labor-indicators|商业周期与劳动力市场指标]] — 增长差异通过经常账户改变长期资金流向。
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi：外币利率与持有收益敏感度]] — 跨币种持仓的第二利率敞口由 Phi 度量。
+- [[oil-opec-energy-markets|原油、OPEC 与能源市场]] — 能源贸易收支是商品货币与经常账户的重要组成。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -188,6 +195,13 @@ Cross-border data arrive with lags and revisions, and errors and omissions can b
 - Trade flows are often slow; capital and hedging flows can dominate short horizons.
 - Rate differentials constrain forward pricing, while risk premia, basis, and policy change holding returns.
 - This lesson does not forecast any currency pair or provide cross-border investment or leverage advice.
+
+## Related Concepts
+
+- [[rates-treasuries-central-bank-transmission|Rates, Treasuries, And Central-Bank Transmission]] — Rate differentials are the most direct cross-border driver and one anchor of currency expectations.
+- [[business-cycle-labor-indicators|Business Cycles And Labor-Market Indicators]] — Growth differentials change long-horizon flows through the current account.
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi: Foreign-Rate And Carry Sensitivity]] — The second-rate exposure of a cross-currency position is measured by phi.
+- [[oil-opec-energy-markets|Crude Oil, OPEC, And Energy Markets]] — Energy trade balances are a major component of commodity currencies and current accounts.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

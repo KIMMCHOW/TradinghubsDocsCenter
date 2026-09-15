@@ -116,6 +116,13 @@ generated: 2026-09-15
 - Rho 是局部敏感度，不是完整利率情景损益。
 - 本课不构成债券、现金工具或利率方向建议。
 
+## 相关概念
+
+- [[rates-treasuries-central-bank-transmission|利率、国债与央行传导]] — 贴现率来自政策利率与期限溢价，而不是一个固定常数。
+- [[forwards-futures-basis-cost-of-carry|远期、期货、基差与持有成本：从现货到股指公平价值]] — 同一贴现逻辑决定远期价格中的持有成本与基差。
+- [[rho-rate-sensitivity|Rho：利率敏感度为什么通常排在最后]] — 贴现率变化对期权价格的敏感度就是 Rho。
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi：外币利率与持有收益敏感度]] — 引入第二种货币时，第二个利率进入贴现，形成 Phi 敞口。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -206,6 +213,13 @@ Government securities can fluctuate in market value as yields move, and long-dur
 - Forward and option responses depend jointly on financing, carry income, maturity, and contract type.
 - Rho is a local sensitivity, not complete rate-scenario P&L.
 - This lesson is not advice on bonds, cash instruments, or rate direction.
+
+## Related Concepts
+
+- [[rates-treasuries-central-bank-transmission|Rates, Treasuries, And Central-Bank Transmission]] — The discount rate comes from the policy rate plus a term premium, not from a fixed constant.
+- [[forwards-futures-basis-cost-of-carry|Forwards, Futures, Basis, And Cost Of Carry: From Spot To Equity-Index Fair Value]] — The same discounting logic sets the cost of carry and basis inside a forward price.
+- [[rho-rate-sensitivity|Rho: Why Rate Sensitivity Usually Comes Last]] — The sensitivity of an option price to the discount rate is rho.
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi: Foreign-Rate And Carry Sensitivity]] — With a second currency, a second rate enters discounting and creates phi exposure.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

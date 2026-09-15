@@ -99,6 +99,13 @@ generated: 2026-09-15
 - 角色标签解释交易动机，不证明下一步价格方向。
 - 本课用于市场结构教育，不构成资产配置或产品推荐。
 
+## 相关概念
+
+- [[price-discovery-market-clearing|价格发现与市场出清]] — 参与者角色决定了谁在边际上提供流动性、谁承担风险。
+- [[expected-utility-opportunity-cost|期望效用、机会成本与风险收益]] — 不同角色的目标函数不同，因此同一价格对各方含义不同。
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 做市商是参与者结构中最受库存与信息不对称约束的角色。
+- [[no-arbitrage-and-synthetics|无套利边界与合成头寸]] — 套利者是维持跨工具价格一致的参与者，其约束决定价格偏离能持续多久。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -172,6 +179,13 @@ Claims such as bonds are stable, options have limited risk, or arbitrage is risk
 - The same directional view can be expressed through different assets, but path, cost, and tail risk differ.
 - Participant labels explain motives; they do not prove the next price direction.
 - This lesson teaches market structure and is not an asset-allocation or product recommendation.
+
+## Related Concepts
+
+- [[price-discovery-market-clearing|Price Discovery And Market Clearing]] — Participant roles determine who supplies liquidity at the margin and who absorbs risk.
+- [[expected-utility-opportunity-cost|Expected Utility, Opportunity Cost, And Risk-Reward]] — Different roles carry different objective functions, so the same price means different things to each.
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — Market makers are the participant role most constrained by inventory and information asymmetry.
+- [[no-arbitrage-and-synthetics|No-Arbitrage Bounds And Synthetic Positions]] — Arbitrageurs keep cross-instrument prices consistent, and their constraints set how long deviations persist.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

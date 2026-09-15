@@ -4,7 +4,7 @@ title_en: "Calendars, Diagonals, Butterflies, Condors, And Iron Condors"
 slug: "calendar-diagonal-butterfly-condor"
 type: lesson
 level: Advanced
-order: 80
+order: 82
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "24 分钟"
@@ -127,6 +127,13 @@ Calendar 与 Diagonal 应在前腿到期时对后腿做价格 × IV × Skew 情�
 - 第三步：统一压力测试 IV、Skew、时间、部分成交、指派和结算后的仓位。
 - 多腿结构可能复杂且成本敏感，本课不推荐特定组合、执行价、期限或持有方式。
 
+## 相关概念
+
+- [[option-spread-structures|价差与组合结构]] — 日历与对角结构是价差族在期限维度上的扩展。
+- [[skew-term-structure|Skew / Term Structure]] — 跨期限定价直接依赖期限结构中的远期波动率。
+- [[time-butterfly-term-structure|Time Butterfly：期限曲率与三到期日重估]] — 时间蝶式把期限曲率隔离成一个可独立交易的结构。
+- [[time-value-and-theta|时间价值与 Theta]] — 近期腿与远期腿的 Theta 差异是这类结构的主要风险。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -228,6 +235,13 @@ Every structure then needs multi-leg bid-ask, partial fills, front-leg assignmen
 - Step 2: Revalue the back leg for cross-expiry packages; map regional cash flows and protective wings for wing structures.
 - Step 3: Stress-test IV, skew, time, partial fills, assignment, and post-settlement positions.
 - Multi-leg structures can be complex and cost-sensitive; this lesson recommends no package, strike, expiry, or holding method.
+
+## Related Concepts
+
+- [[option-spread-structures|Spread And Multi-Leg Structures]] — Calendar and diagonal structures extend the spread family into the expiry dimension.
+- [[skew-term-structure|Skew / Term Structure]] — Cross-expiry pricing depends directly on forward volatility in the term structure.
+- [[time-butterfly-term-structure|Time Butterflies: Term Curvature And Three-Expiry Revaluation]] — A time butterfly isolates term-structure curvature into a separately tradable structure.
+- [[time-value-and-theta|Time Value And Theta]] — The theta difference between near and far legs is the main risk of these structures.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

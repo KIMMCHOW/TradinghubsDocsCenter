@@ -4,7 +4,7 @@ title_en: "Time Butterflies: Term Curvature And Three-Expiry Revaluation"
 slug: "time-butterfly-term-structure"
 type: lesson
 level: Advanced
-order: 82
+order: 84
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "24 分钟"
@@ -112,6 +112,13 @@ generated: 2026-09-15
 - 第三步：指定 T₁ 前、T₁ 当日和 T₁ 后三类管理路径并完整重估。
 - 期限曲率结构成本与路径敏感，本课不推荐任何到期组合或持有方式。
 
+## 相关概念
+
+- [[calendar-diagonal-butterfly-condor|Calendar、Diagonal、Butterfly、Condor 与 Iron Condor]] — 时间蝶式是跨期限结构族中最纯粹的一条腿组合。
+- [[skew-term-structure|Skew / Term Structure]] — 结构盈亏取决于远期波动率的形状而非水平。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 曲率把曲面在期限方向上的二阶变化变成了持仓。
+- [[higher-order-greeks|扩展与高阶 Greeks 总览：弹性、曲率、漂移与单位]] — 期限曲率敞口无法用单一 Vega 表达，需要高阶敏感度。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -198,6 +205,13 @@ A three-expiry package also adds spreads, partial-fill risk, and repeated expiry
 - Step 2: Map IV, total variance, and leg Greeks at all three maturity nodes rather than net values alone.
 - Step 3: Fully revalue management paths before T₁, at T₁, and after T₁.
 - Term-curvature packages are cost- and path-sensitive; this lesson recommends no expiry set or holding method.
+
+## Related Concepts
+
+- [[calendar-diagonal-butterfly-condor|Calendars, Diagonals, Butterflies, Condors, And Iron Condors]] — The time butterfly is the purest leg combination in the cross-expiry family.
+- [[skew-term-structure|Skew / Term Structure]] — The structure's payoff depends on the shape of forward volatility rather than its level.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Curvature turns the surface's second-order change along the expiry axis into a position.
+- [[higher-order-greeks|Extended And Higher-Order Greeks Overview: Elasticity, Curvature, Drift, And Units]] — Term-curvature exposure cannot be expressed by a single vega and needs higher-order sensitivities.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

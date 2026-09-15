@@ -4,7 +4,7 @@ title_en: "Market Efficiency, Information Asymmetry, And Signals"
 slug: "market-efficiency-information-signaling"
 type: lesson
 level: Intermediate
-order: 22
+order: 24
 track: markets-macro-and-behavior
 track_label: "市场、宏观与行为"
 reading_time: "18 分钟"
@@ -28,7 +28,7 @@ generated: 2026-09-15
 
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[level-intermediate|中级]] · [[markets-macro-and-behavior|市场、宏观与行为]]
-> 上一课：[[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] ｜ 下一课：[[game-theory-strategic-interaction|博弈论与市场策略互动]]
+> 上一课：[[random-walk-hypothesis|随机游走假说]] ｜ 下一课：[[game-theory-strategic-interaction|博弈论与市场策略互动]]
 
 **中级 · 市场、宏观与行为 · 18 分钟**
 
@@ -38,11 +38,17 @@ generated: 2026-09-15
 
 ### 01 / 概念边界
 
-#### 效率描述信息进入价格的速度与成本
+#### 本课处理应用侧：信息进入价格的速度、成本与误差
 
-弱式、半强式和强式效率是不同信息集下的命题：过去价格、公开信息和全部信息。现实市场中信息获取与解释有成本，参与者也受融资、授权和风险限额约束，因此价格可以迅速反应又仍然含有误差。
+效率的定义、三种信息集形式、思想史与联合假设问题在《有效市场假说（EMH）》一课中系统处理。本课只承接它的应用侧：当信息确实存在时，它进入价格的速度与成本是多少，留下多大规模的误差，以及这些误差能不能在成本与容量之后被交易。
 
 信息不对称指不同参与者掌握的信息质量或时点不同。信号只有在与真实状态有稳定关联、且伪造具有成本或约束时才更可信；高成交量、新闻语气或单一指标本身都可能只是噪声。
+
+> [!note] 区分理论、证据与解释
+> 本课把内容分成四层：已建立的理论（例如信息获取需要回报，否则无人搜集）；实证证据（文献中观察到的价格反应与漂移）；对这些证据的解释（可能是风险补偿，也可能是错价）；以及 TradingHub 的交易应用（怎样读信号与核验假设）。第四层是实践框架，不应被读成已被学术界证明的事实。
+
+> [!question] 常见误解：信息不对称意味着知情者必然获利
+> 知情者同样受融资期限、风险限额与执行成本约束，而信息可能已经被部分定价。Grossman 与 Stiglitz（1980）指出，只有在信息能带来回报时，参与者才有动机搜集信息，因此市场更可能是“有效率但仍为信息成本付费”，而不是“知情者稳定获得超额收益”。
 
 | 信息层 | 例子 | 主要限制 |
 | --- | --- | --- |
@@ -102,6 +108,14 @@ generated: 2026-09-15
 - 信息不对称会进入价差、深度和逆向选择成本。
 - 本课不认可内幕交易，也不承诺任何信息信号可盈利。
 
+## 相关概念
+
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 本课的理论基础：效率定义、三种信息集与联合假设问题。
+- [[price-discovery-market-clearing|价格发现与市场出清]] — 信息进入价格的机制层：订单簿、边际成交与暂时平衡。
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 信息不对称在市场结构中的直接后果：价差与逆向选择成本。
+- [[anchoring-framing-trading-decisions|锚定、框架与交易决策]] — 解释同一事实为何会被不同参与者解读为不同信号。
+- [[random-walk-hypothesis|随机游走假说]] — 信息被充分反映时，价格变化由新信息驱动，因而不可预测。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -115,11 +129,17 @@ Understand how prices absorb public information, why information is costly, and 
 
 ### 01 / Concept Boundary
 
-#### Efficiency Describes The Speed And Cost Of Information Entering Prices
+#### This Lesson Covers The Applied Side: Speed, Cost, And Error Of Information Entering Prices
 
-Weak, semistrong, and strong efficiency are propositions under different information sets: past prices, public information, and all information. In real markets, information acquisition and interpretation are costly, while participants face funding, mandate, and risk limits, so prices can react quickly and still contain error.
+The definition of efficiency, the three information-set forms, the intellectual history, and the joint hypothesis problem are handled systematically in the Efficient Market Hypothesis (EMH) lesson. This lesson takes only the applied side: when information does exist, how fast and at what cost it enters price, how large an error is left behind, and whether that error can be traded after cost and capacity.
 
 Information asymmetry means participants differ in information quality or timing. A signal is more credible when it is stably linked to the underlying state and costly or constrained to mimic. High volume, headline tone, or one indicator can still be noise.
+
+> [!note] Separate Theory, Evidence, And Interpretation
+> This lesson separates four layers: established theory, such as the need for a return to information gathering; empirical evidence, such as observed price response and drift in the literature; interpretation of that evidence, which may be risk compensation or mispricing; and the TradingHub trading application, which is how to read a signal and test a hypothesis. The fourth layer is a practical framework and should not be read as a fact established by academic research.
+
+> [!question] Common Misconception: Information Asymmetry Means The Informed Party Wins
+> An informed participant still faces funding horizon, risk limits, and execution cost, and the information may already be partly priced. Grossman and Stiglitz (1980) argued that participants only have an incentive to gather information if it pays, so markets are more plausibly efficient while still paying for information cost than they are a setting where the informed party reliably earns abnormal return.
 
 | Information Layer | Example | Main Constraint |
 | --- | --- | --- |
@@ -179,6 +199,14 @@ A statistically detectable pattern may be smaller than fees and impact; a real m
 - Information asymmetry enters spreads, depth, and adverse-selection cost.
 - This lesson neither endorses insider trading nor promises any signal is profitable.
 
+## Related Concepts
+
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — The theoretical foundation of this lesson: the definition of efficiency, the three information sets, and the joint hypothesis problem.
+- [[price-discovery-market-clearing|Price Discovery And Market Clearing]] — The mechanism layer where information enters price: book, marginal trades, and temporary balance.
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — The direct market-structure consequence of information asymmetry: spread and adverse-selection cost.
+- [[anchoring-framing-trading-decisions|Anchoring, Framing, And Trading Decisions]] — Explains why the same fact can be read as a different signal by different participants.
+- [[random-walk-hypothesis|Random Walk Hypothesis]] — When information is fully reflected, price changes are driven by new information and are therefore unpredictable.
+
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.
 
@@ -186,3 +214,5 @@ A statistically detectable pattern may be smaller than fees and impact; a real m
 
 - sec-market-efficiency
 - nyfed-market-liquidity
+- grossman-stiglitz-1980-informationally-efficient-markets
+- jensen-1978-anomalous-evidence

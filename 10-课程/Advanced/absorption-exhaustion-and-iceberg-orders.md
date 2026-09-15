@@ -4,7 +4,7 @@ title_en: "Absorption, Exhaustion, And Iceberg Orders"
 slug: "absorption-exhaustion-and-iceberg-orders"
 type: lesson
 level: Advanced
-order: 85
+order: 87
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "20 分钟"
@@ -81,6 +81,13 @@ generated: 2026-09-15
 - 用“是否真的成交”区分隐藏流动性与虚假挂单。
 - 为每一种状态预设明确的失效条件，再讨论如何利用。
 
+## 相关概念
+
+- [[order-flow-footprint-delta-cvd|订单流、Footprint、Delta 与累计 Delta]] — 吸收必须用主动成交量与价格位移的背离来识别。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 冰山与隐藏单解释了可见深度为何低估真实承接意愿。
+- [[auction-market-theory-value-and-imbalance|拍卖市场理论：价值、平衡与失衡]] — 吸收成功或失败决定失衡区是否被价值区重新接受。
+- [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 吸收失败后的价格位移常表现为扫荡与被困仓位。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -136,6 +143,13 @@ Absorption, exhaustion, and hidden liquidity all describe the liquidity state at
 - Fix the layering threshold and state how sensitive the conclusion is to it.
 - Separate hidden liquidity from spoofing by whether the level actually trades.
 - Define an explicit invalidation for each state before discussing how to use it.
+
+## Related Concepts
+
+- [[order-flow-footprint-delta-cvd|Order Flow, Footprint, Delta, And Cumulative Delta]] — Absorption must be identified through divergence between aggressive volume and price displacement.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Iceberg and hidden orders explain why visible depth understates real willingness to absorb.
+- [[auction-market-theory-value-and-imbalance|Auction Market Theory: Value, Balance, And Imbalance]] — Whether absorption succeeds decides if an imbalance zone is re-accepted by the value area.
+- [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — A failed absorption usually shows up as a sweep and trapped positions.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

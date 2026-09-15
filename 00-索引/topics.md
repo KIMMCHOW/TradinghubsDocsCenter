@@ -39,6 +39,8 @@ generated: 2026-09-15
 - [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 中级
 - [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 中级
 - [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 中级
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 中级
+- [[random-walk-hypothesis|随机游走假说]] — 中级
 - [[market-efficiency-information-signaling|市场效率、信息不对称与信号]] — 中级
 - [[game-theory-strategic-interaction|博弈论与市场策略互动]] — 中级
 

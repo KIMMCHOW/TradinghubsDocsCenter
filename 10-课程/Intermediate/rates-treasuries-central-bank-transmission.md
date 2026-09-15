@@ -102,6 +102,13 @@ generated: 2026-09-15
 - 跨资产确认能降低对单一收益率变化的过度解释。
 - 本课不预测央行决定、债券收益率或具体资产回报。
 
+## 相关概念
+
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — 政策利率与期限溢价共同构成贴现率的来源。
+- [[business-cycle-labor-indicators|商业周期与劳动力市场指标]] — 通胀与就业数据决定市场对政策路径的预期。
+- [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 利差是跨境资金流与汇率的主要驱动之一。
+- [[rho-rate-sensitivity|Rho：利率敏感度为什么通常排在最后]] — 利率路径变化直接进入期权定价的 Rho 敞口。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -178,6 +185,13 @@ The yield curve contains expectations and risk premia, so one maturity cannot re
 - The front end reflects the policy path more directly; the long end also carries term premium and supply-demand.
 - Cross-asset confirmation reduces overinterpretation of one yield move.
 - This lesson does not forecast central-bank decisions, bond yields, or specific asset returns.
+
+## Related Concepts
+
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — The policy rate plus term premium together form the discount rate.
+- [[business-cycle-labor-indicators|Business Cycles And Labor-Market Indicators]] — Inflation and employment data drive the market's expected policy path.
+- [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — Rate differentials are a primary driver of cross-border flows and currencies.
+- [[rho-rate-sensitivity|Rho: Why Rate Sensitivity Usually Comes Last]] — Changes in the rate path feed directly into an option's rho exposure.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

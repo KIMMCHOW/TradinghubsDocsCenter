@@ -28,7 +28,7 @@ generated: 2026-09-15
 
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[level-intermediate|中级]] · [[markets-macro-and-behavior|市场、宏观与行为]]
-> 上一课：[[normal-lognormal-distributions|正态、对数正态与收益分布]] ｜ 下一课：[[market-efficiency-information-signaling|市场效率、信息不对称与信号]]
+> 上一课：[[normal-lognormal-distributions|正态、对数正态与收益分布]] ｜ 下一课：[[efficient-market-hypothesis|有效市场假说（EMH）]]
 
 **中级 · 市场、宏观与行为 · 17 分钟**
 
@@ -114,6 +114,13 @@ generated: 2026-09-15
 - 偏度说明尾部方向不对称，峰度说明极端频率相对基准更高。
 - 期权尾部定价应和历史样本、事件日和流动性情景一起读。
 - 本课不提供尾部事件概率或具体对冲建议。
+
+## 相关概念
+
+- [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 肥尾是相对正态基准的偏离度量，必须与基准分布一起读。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 尾部厚度直接决定 VaR 之外的期望损失。
+- [[volatility-forecasting|波动率预测：从实现方差到样本外条件预测]] — 波动率聚集与厚尾是同一现象的两种观察方式。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 市场对尾部风险的定价体现在偏斜与曲率上。
 
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
@@ -204,6 +211,13 @@ Third and fourth moments are extremely sensitive to a few observations. Sample c
 - Skewness describes tail asymmetry; kurtosis describes extreme frequency relative to a benchmark.
 - Option tail pricing should be read with historical samples, event days, and liquidity scenarios.
 - This lesson provides no tail-event probability or specific hedge recommendation.
+
+## Related Concepts
+
+- [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — Fat tails are a deviation from a normal benchmark and must be read together with that benchmark.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Tail thickness directly determines expected loss beyond VaR.
+- [[volatility-forecasting|Volatility Forecasting: From Realized Variance To Out-Of-Sample Conditional Forecasts]] — Volatility clustering and fat tails are two views of the same phenomenon.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — The market's pricing of tail risk appears in skew and curvature.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

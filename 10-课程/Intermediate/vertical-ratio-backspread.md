@@ -4,7 +4,7 @@ title_en: "Vertical Spreads, Ratio Spreads, And Backspreads"
 slug: "vertical-ratio-backspread"
 type: lesson
 level: Intermediate
-order: 31
+order: 33
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "22 分钟"
@@ -105,6 +105,12 @@ Call Backspread 则通常卖出较少近执行价 Call、买入更多远执行�
 - 第三步：用完整重估和实际 Bid / Ask 检查到期前路径与可执行性。
 - 结构比较只展示风险形状，不推荐具体比例、执行价或方向。
 
+## 相关概念
+
+- [[option-spread-structures|价差与组合结构]] — 比率结构属于价差族，但腿数比例打破了有界风险。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — 比率结构的风险在远端腿上由 Gamma 放大，而非线性外推。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 卖出多于买入的腿使尾部损失可以超过初始权利金。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -184,6 +190,12 @@ After the terminal diagram, revalue across price, time, and IV scenarios, then i
 - Step 2: Mark bounded width, middle loss valleys, and any open tail.
 - Step 3: Use full revaluation and executable bid-ask prices to check pre-expiry path and executability.
 - The comparison shows risk shapes and recommends no ratio, strike, or direction.
+
+## Related Concepts
+
+- [[option-spread-structures|Spread And Multi-Leg Structures]] — Ratio structures belong to the spread family, but leg ratios break the bounded-risk property.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — A ratio structure's far-leg risk is amplified by gamma rather than extrapolated linearly.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Selling more legs than are bought lets tail loss exceed the initial premium.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

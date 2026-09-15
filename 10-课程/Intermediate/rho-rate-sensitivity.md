@@ -4,7 +4,7 @@ title_en: "Rho: Why Rate Sensitivity Usually Comes Last"
 slug: "rho-rate-sensitivity"
 type: lesson
 level: Intermediate
-order: 38
+order: 40
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "14 分钟"
@@ -89,6 +89,13 @@ LEAPS、长期保护性 Put、长期价差或利率预期剧烈变化时，Rho �
 - 长期组合、指数期权和利率敏感行情里，Rho 会影响理论价、组合估值和对冲解释。
 - 把 Rho 看成“利率输入的敏感度”，不要把它误读成独立交易信号。
 
+## 相关概念
+
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — Rho 是贴现率变化在期权价格上的直接体现。
+- [[rates-treasuries-central-bank-transmission|利率、国债与央行传导]] — 政策利率路径的预期变化会推动长期贴现率与 Rho 敞口。
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi：外币利率与持有收益敏感度]] — 引入外币后，第二个利率的敏感度由 Phi 而不是 Rho 表示。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 长久期期权的 Rho 更大，短到期期权的利率敏感度通常可忽略。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -152,6 +159,13 @@ For LEAPS, long-dated protective puts, long-dated spreads, or sharp shifts in ra
 - In short-term trading priority, Rho usually comes after Delta, Gamma, Theta, and Vega.
 - In long-dated books, index options, and rate-sensitive regimes, Rho affects theoretical value, portfolio marks, and hedge explanations.
 - Read Rho as sensitivity to the rate input, not as a standalone trading signal.
+
+## Related Concepts
+
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — Rho is the direct expression of a discount-rate change in the option price.
+- [[rates-treasuries-central-bank-transmission|Rates, Treasuries, And Central-Bank Transmission]] — Expected changes in the policy path drive long-end discount rates and rho exposure.
+- [[phi-foreign-rate-sensitivity|Foreign Rho / Phi: Foreign-Rate And Carry Sensitivity]] — With a foreign currency the second rate's sensitivity is phi rather than rho.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Long-dated options carry larger rho, while short-dated rate sensitivity is usually negligible.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "How Options Positioning Transmits Into Futures Prices"
 slug: "futures-flow-from-options-positioning"
 type: lesson
 level: Advanced
-order: 89
+order: 91
 track: futures-and-options-linkage
 track_label: "期货与期权衔接"
 reading_time: "22 分钟"
@@ -108,6 +108,13 @@ Vanna 描述 Delta 随隐含波动率的变化，它不像 Gamma 与 Charm 那�
 - 跨 ES 与 SPX 的价位必须先换算基差与合约月份。
 - 明确未观测仓位与低参与度合约的限制，不把单日案例当作规律。
 
+## 相关概念
+
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — Gamma 敞口决定对冲方向与规模，是传导链条的起点。
+- [[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]] — 对冲需求必须换算为可执行的期货手数。
+- [[market-maker-flow|做市商对冲：Delta 中性与 Gamma 再平衡]] — 做市商流提供了对冲行为在数据上的可观察痕迹。
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — 传导的时点与幅度取决于对冲再平衡频率。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -190,6 +197,13 @@ Four conditions limit any transmission read: unrelated futures positions can mas
 - Near expiry and on event days, read volatility and time before direction.
 - Translate basis and contract month before comparing ES and SPX levels.
 - State the limits from unobserved positions and thin contracts, and never elevate a single session into a rule.
+
+## Related Concepts
+
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Gamma exposure sets the direction and size of hedging, which is where the transmission chain starts.
+- [[synthetic-futures-and-delta-equivalent-sizing|Expressing Futures Exposure With Options: Synthetics And Equivalent Sizing]] — Hedge demand must be converted into executable futures contracts.
+- [[market-maker-flow|Market-Maker Hedging: Delta Neutrality And Gamma Rebalancing]] — Market-maker flow provides the observable data trace of that hedging behaviour.
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — The timing and size of transmission depend on hedge rebalancing frequency.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

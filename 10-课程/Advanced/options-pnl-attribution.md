@@ -4,7 +4,7 @@ title_en: "Options P&L Attribution: From Endpoint Revaluation To Greek Explanati
 slug: "options-pnl-attribution"
 type: lesson
 level: Advanced
-order: 66
+order: 68
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "24 分钟"
@@ -95,6 +95,13 @@ Theta 的符号取决于引擎是对日历时间 t 还是剩余期限 τ 求导�
 - 将曲面按节点归因，避免用单一平行 Vega 掩盖偏斜变化。
 - 历史归因不保证下一期损益，也不构成对冲或交易建议。
 
+## 相关概念
+
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 归因从组合 Greeks 出发，再逐项解释实际损益。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 残差项就是模型未能解释的部分，必须单独呈现。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 同一 Vega 损益在不同执行价上的来源并不相同。
+- [[odv-10-minute-reading-routine|ODV 10 分钟读盘流程]] — 归因结果是检验读图结论是否站得住的证据。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -164,6 +171,13 @@ A small residual does not prove the risk model correct because errors may offset
 - When residual widens, inspect data, units, model version, and factor-move size.
 - Attribute the surface by node so a single parallel vega cannot hide skew changes.
 - Historical attribution does not guarantee next-period P&L and is not hedge or trading advice.
+
+## Related Concepts
+
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — Attribution starts from book Greeks and then explains the actual P&L term by term.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — The residual is what the model could not explain and must be shown separately.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — The same vega P&L does not come from the same place across strikes.
+- [[odv-10-minute-reading-routine|ODV 10-Minute Reading Routine]] — Attribution is the evidence that tests whether a chart-based conclusion holds.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Markets, Macro And Behavior"
 type: track
 track: markets-macro-and-behavior
 access: public
-lessons: 14
+lessons: 16
 tags:
   - "文档中心"
   - "主题索引"
@@ -22,11 +22,11 @@ generated: 2026-09-15
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[知识课程总览|课程总览]]
 
-**主题轨道 · 14 课**
+**主题轨道 · 16 课**
 
 参与者与价格发现、风险与贴现、经济周期与利率、跨市场资金流、概率与统计、信息效率、博弈与行为偏差。
 
-共 14 课。
+共 16 课。
 
 - [[financial-markets-assets-participants|金融市场、资产与参与者角色]] — 初级 · 16 分钟
 - [[price-discovery-market-clearing|价格发现与市场出清]] — 初级 · 15 分钟
@@ -40,6 +40,8 @@ generated: 2026-09-15
 - [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 中级 · 19 分钟
 - [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 中级 · 17 分钟
 - [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 中级 · 17 分钟
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 中级 · 24 分钟
+- [[random-walk-hypothesis|随机游走假说]] — 中级 · 20 分钟
 - [[market-efficiency-information-signaling|市场效率、信息不对称与信号]] — 中级 · 18 分钟
 - [[game-theory-strategic-interaction|博弈论与市场策略互动]] — 中级 · 18 分钟
 
@@ -61,5 +63,7 @@ Participants and price discovery, risk and discounting, cycles and rates, cross-
 - [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — Intermediate · 19 min
 - [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — Intermediate · 17 min
 - [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — Intermediate · 17 min
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Intermediate · 24 min
+- [[random-walk-hypothesis|Random Walk Hypothesis]] — Intermediate · 20 min
 - [[market-efficiency-information-signaling|Market Efficiency, Information Asymmetry, And Signals]] — Intermediate · 18 min
 - [[game-theory-strategic-interaction|Game Theory And Strategic Interaction In Markets]] — Intermediate · 18 min

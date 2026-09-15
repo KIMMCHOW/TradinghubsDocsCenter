@@ -4,7 +4,7 @@ title_en: "Spread And Multi-Leg Structures"
 slug: "option-spread-structures"
 type: lesson
 level: Intermediate
-order: 28
+order: 30
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "16 分钟"
@@ -69,6 +69,13 @@ Vertical Spread 用两个不同行权价限制一侧风险。Straddle / Strangle
 - 对冲密集区可能表现为吸附、压制或突破后的加速。
 - 组合名称本身不重要，仓位方向和风险暴露才重要。
 
+## 相关概念
+
+- [[single-leg-payoff|单腿盈亏结构]] — 多腿结构的风险形状由各单腿盈亏相加而成。
+- [[vertical-ratio-backspread|垂直价差、Ratio Spread 与 Backspread]] — 垂直与比率结构是同一族结构的数量与方向变体。
+- [[no-arbitrage-and-synthetics|无套利边界与合成头寸]] — 结构定价必须满足相同的无套利约束，否则可被拆解套利。
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 结构的组合 Greeks 由各腿按数量与到期汇总得到。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -112,6 +119,13 @@ Institutional structures can concentrate gamma / vega exposure around strike ran
 
 - Hedging zones may appear as pinning, compression, or acceleration after a break.
 - The structure name matters less than positioning direction and exposure.
+
+## Related Concepts
+
+- [[single-leg-payoff|Single-Leg Payoff Structure]] — A multi-leg structure's risk shape is the sum of its single-leg payoffs.
+- [[vertical-ratio-backspread|Vertical Spreads, Ratio Spreads, And Backspreads]] — Vertical and ratio structures are quantity and direction variants of the same family.
+- [[no-arbitrage-and-synthetics|No-Arbitrage Bounds And Synthetic Positions]] — A structure must satisfy the same no-arbitrage constraint or it can be taken apart and arbitraged.
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — A structure's portfolio Greeks aggregate from its legs by quantity and expiry.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

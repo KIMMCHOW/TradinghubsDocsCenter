@@ -4,7 +4,7 @@ title_en: "Model Assumptions And Model Risk: From Correct Formula To Reliable De
 slug: "model-assumptions-and-model-risk"
 type: lesson
 level: Advanced
-order: 56
+order: 58
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "23 分钟"
@@ -90,6 +90,13 @@ generated: 2026-09-15
 - 用替代模型和完整重估复核大额风险，不只依赖局部敏感度。
 - 模型输出辅助判断，不保证市场价格、成交能力或损失边界。
 
+## 相关概念
+
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — BSM 的假设清单是评估模型风险的具体对象。
+- [[volatility-forecasting|波动率预测：从实现方差到样本外条件预测]] — 波动率输入是否稳定是模型误差的主要来源之一。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 曲面偏斜是市场对「单一常数波动率」假设的直接反驳。
+- [[options-pnl-attribution|期权 P&L 归因：从起止重估到 Greek 解释残差]] — 盈亏归因是把模型残差从可解释损益中分离出来的方法。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -154,6 +161,13 @@ Validation approval means the model meets a current standard for stated evidence
 - Outside training or approved scope, show unavailable rather than extrapolating a precise number.
 - Recheck material risk with challengers and full revaluation, not only local sensitivities.
 - Model output supports judgment and does not guarantee price, execution, or a loss boundary.
+
+## Related Concepts
+
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — The BSM assumption list is the concrete object of model-risk assessment.
+- [[volatility-forecasting|Volatility Forecasting: From Realized Variance To Out-Of-Sample Conditional Forecasts]] — Whether the volatility input is stable is a main source of model error.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Surface skew is the market's direct rebuttal of a single constant-volatility assumption.
+- [[options-pnl-attribution|Options P&L Attribution: From Endpoint Revaluation To Greek Explanations]] — P&L attribution is how model residual is separated from explainable profit and loss.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

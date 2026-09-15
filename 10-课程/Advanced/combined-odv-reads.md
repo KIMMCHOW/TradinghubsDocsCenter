@@ -4,7 +4,7 @@ title_en: "Combined Reads: Trend Continuation, Pinning, And Volatility Expansion
 slug: "combined-odv-reads"
 type: lesson
 level: Advanced
-order: 62
+order: 64
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "14 分钟"
@@ -75,6 +75,13 @@ generated: 2026-09-15
 - 先识别状态，再匹配自己的交易系统。
 - 冲突状态下，少做结论比硬做方向更重要。
 
+## 相关概念
+
+- [[aggregate-options-data|Aggregate Data：总量结构怎么读]] — 组合读法把聚合层、节点层与确认层串成一条证据链。
+- [[odv-10-minute-reading-routine|ODV 10 分钟读盘流程]] — 固定流程的存在是为了避免按方便程度挑图。
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — 成交分类是组合读法中确认层的核心输入。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 不同敞口层相互冲突时，必须回到 Gamma 与方向的实际含义。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -124,6 +131,13 @@ Combined reading can improve the quality of structural state recognition, but it
 
 - Identify the state first, then map it to your own trading system.
 - In conflict states, avoiding forced conclusions is more important than forcing direction.
+
+## Related Concepts
+
+- [[aggregate-options-data|Aggregate Data: How To Read The Total Structure]] — A combined read chains the aggregate, node, and confirmation layers into one evidence path.
+- [[odv-10-minute-reading-routine|ODV 10-Minute Reading Routine]] — A fixed routine exists to prevent picking whichever chart is convenient.
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — Trade classification is the core input of the confirmation layer in a combined read.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — When exposure layers conflict, the read must return to what gamma and direction actually mean.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

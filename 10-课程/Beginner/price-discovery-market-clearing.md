@@ -103,6 +103,13 @@ generated: 2026-09-15
 - 盘口失衡只提供短时假设，需要成交与后续报价验证。
 - 本课不提供基于订单簿的自动买卖信号。
 
+## 相关概念
+
+- [[market-orders-limit-orders-bid-ask|市价单、限价单与买卖报价]] — 限价单提供条件性流动性，市场单消耗它；两者共同决定成交价。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 出清价格的距离取决于盘口深度，而不只是最新成交价。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 价格发现是效率命题的机制层：信息通过报价与成交进入价格。
+- [[liquidity-slippage-execution|流动性、滑点与期权执行]] — 从理论出清价到实际成交价之间的差额就是执行成本。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -180,6 +187,13 @@ Displayed orders can be canceled, trade classification can be wrong, and cross-v
 - Persistent acceptance after a trade is more informative than one large print.
 - Book imbalance provides a short-lived hypothesis that trades and later quotes must verify.
 - This lesson provides no automated order-book trading signal.
+
+## Related Concepts
+
+- [[market-orders-limit-orders-bid-ask|Market Orders, Limit Orders, And The Bid-Ask Spread]] — Limit orders provide conditional liquidity and market orders consume it; together they set the traded price.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — The distance to a clearing price depends on book depth, not only on the last traded price.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Price discovery is the mechanism layer of the efficiency proposition: information enters price through quotes and trades.
+- [[liquidity-slippage-execution|Liquidity, Slippage, And Option Execution]] — The gap between a theoretical clearing price and the actual fill is execution cost.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

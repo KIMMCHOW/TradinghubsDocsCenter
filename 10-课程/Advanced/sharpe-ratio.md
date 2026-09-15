@@ -4,7 +4,7 @@ title_en: "Sharpe Ratio: Excess Return Per Unit Of Total Volatility"
 slug: "sharpe-ratio"
 type: lesson
 level: Advanced
-order: 49
+order: 51
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "20 分钟"
@@ -96,6 +96,13 @@ Sharpe 只压缩了均值和二阶离散程度。两个具有相同比率的策�
 - 把尾部损失、回撤和流动性压力放在同一绩效面板中。
 - 本课用于绩效度量教育，不构成收益承诺或交易建议。
 
+## 相关概念
+
+- [[expected-utility-opportunity-cost|期望效用、机会成本与风险收益]] — 把收益与风险压缩为单一比值，本身就是一种效用假设。
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — Sharpe 的超额收益以现金基准利率为参照。
+- [[sortino-ratio|Sortino Ratio：只把目标下方偏差计入风险]] — Sortino 只惩罚下行偏离，是该比值的非对称变体。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 任何 alpha 声明都必须先说明用哪个风险基准来度量。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -166,6 +173,13 @@ The metric is descriptive, not a position-size, leverage, or trading authorizati
 - If a rolling value is driven by a few observations, inspect the underlying trades and marks.
 - Place tail loss, drawdown, and liquidity stress on the same performance panel.
 - This lesson teaches performance measurement and is not a return promise or trading recommendation.
+
+## Related Concepts
+
+- [[expected-utility-opportunity-cost|Expected Utility, Opportunity Cost, And Risk-Reward]] — Compressing return and risk into one ratio is itself a utility assumption.
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — The Sharpe ratio references excess return against a cash benchmark rate.
+- [[sortino-ratio|Sortino Ratio: Counting Only Deviation Below A Target]] — Sortino penalizes only downside deviation, an asymmetric variant of the same ratio.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Any alpha claim must first state which risk benchmark defines it.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Vega: IV Sensitivity And Volatility Repricing"
 slug: "vega-iv-sensitivity"
 type: lesson
 level: Intermediate
-order: 37
+order: 39
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "16 分钟"
@@ -90,6 +90,13 @@ Long Vega 希望 IV 上升，或者至少不被 IV crush 抹掉权利金；Short
 - 较大的 Vega 暴露会让组合对波动率曲面移动更敏感，而不只是对 Spot 方向敏感。
 - 买方 Long Vega、卖方 Short Vega 是基础方向；组合结构会让净 Vega 在不同 strike 和期限上重新分布。
 
+## 相关概念
+
+- [[realized-vs-implied-volatility|已实现波动率与隐含波动率]] — Vega 把隐含波动率变化换算成持仓损益。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 同一 Vega 敞口在不同执行价与期限上的取值并不相同。
+- [[volga-vomma-volatility-convexity|Volga / Vomma：波动率凸性]] — Vega 本身随波动率变化，这个二阶效应就是 Volga。
+- [[vega-decay-veta|Vega Decay / Veta：Vega 随时间的变化]] — Vega 随剩余期限衰减的速度由 Veta 度量。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -154,6 +161,13 @@ In practice, do not only ask whether the trade is bullish or bearish. Ask whethe
 - Around earnings, CPI, or FOMC, Vega often determines whether premium is repriced by IV crush.
 - Large Vega exposure makes a portfolio sensitive to volatility-surface moves, not only to spot direction.
 - Buyers are long Vega and sellers are short Vega as a baseline; structures redistribute net Vega across strikes and expiries.
+
+## Related Concepts
+
+- [[realized-vs-implied-volatility|Realized Versus Implied Volatility]] — Vega converts a change in implied volatility into position profit and loss.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — The same vega exposure takes different values across strikes and expiries.
+- [[volga-vomma-volatility-convexity|Volga / Vomma: Volatility Convexity]] — Vega itself changes with volatility, and that second-order effect is volga.
+- [[vega-decay-veta|Vega Decay / Veta: How Vega Changes With Time]] — How fast vega decays with remaining time is measured by veta.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

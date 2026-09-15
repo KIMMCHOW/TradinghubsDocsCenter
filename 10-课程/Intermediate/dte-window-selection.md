@@ -4,7 +4,7 @@ title_en: "DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window"
 slug: "dte-window-selection"
 type: lesson
 level: Intermediate
-order: 41
+order: 43
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "12 分钟"
@@ -79,6 +79,13 @@ generated: 2026-09-15
 - DTE 是所有 Greeks Profile 读法的第一层过滤器。
 - 不同窗口冲突时，不要强行合并成一个方向结论。
 
+## 相关概念
+
+- [[time-value-and-theta|时间价值与 Theta]] — 不同到期窗口对应完全不同的 Theta 速度。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 0DTE 与短到期仓位是 Gamma 敞口最集中的来源。
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — 到期窗口决定持仓对波动率重定价的敏感程度。
+- [[odv-10-minute-reading-routine|ODV 10 分钟读盘流程]] — 按窗口拆分读数是 ODV 日常流程中的固定步骤。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -132,6 +139,13 @@ For intraday ES or NQ, locate relative hotspots near price separately within eac
 
 - DTE is the first filter for every Greeks Profile reading.
 - When windows conflict, do not force them into one directional conclusion.
+
+## Related Concepts
+
+- [[time-value-and-theta|Time Value And Theta]] — Different expiry windows correspond to very different theta speeds.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — 0DTE and short-dated positioning are the most concentrated sources of gamma exposure.
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — The expiry window sets how sensitive a position is to volatility repricing.
+- [[odv-10-minute-reading-routine|ODV 10-Minute Reading Routine]] — Reading exposure split by window is a fixed step in the ODV daily routine.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

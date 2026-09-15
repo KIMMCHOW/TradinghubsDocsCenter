@@ -4,7 +4,7 @@ title_en: "Market-Making Inventory And Adverse Selection: Spread Capture Is Not 
 slug: "market-making-inventory-adverse-selection"
 type: lesson
 level: Advanced
-order: 83
+order: 85
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "24 分钟"
@@ -102,6 +102,13 @@ h 时间后的不利选择成本可定义为 A_i(h)=-s_i(m_{i+h}-m_i)。若买�
 - 平均结果之外报告尾部、连续亏损和无法对冲情景。
 - 本课解释做市风险，不构成自动报价或流动性提供建议。
 
+## 相关概念
+
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 做市商报价是盘口深度的来源，价差补偿其风险。
+- [[avellaneda-stoikov-market-making|Avellaneda–Stoikov 做市模型：库存偏移、价差与校准]] — 库存模型把直觉形式化为保留价格与最优价差。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 逆向选择模型解释了为何完全信息有效在均衡中难以成立。
+- [[market-maker-flow|做市商对冲：Delta 中性与 Gamma 再平衡]] — 从模型到实践：做市商流数据反映其库存与对冲结果。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -178,6 +185,13 @@ Average spread revenue cannot replace inventory limits or kill switches. Announc
 - Show spread capture and adverse movement separately under one sign convention.
 - Report tails, loss streaks, and unhedgeable scenarios beyond averages.
 - This lesson explains market-making risk and is not automatic quoting or liquidity-provision advice.
+
+## Related Concepts
+
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Market-maker quotes are the source of book depth, and the spread compensates their risk.
+- [[avellaneda-stoikov-market-making|Avellaneda–Stoikov Market Making: Inventory Skew, Spread, And Calibration]] — The inventory model formalizes the intuition into reservation price and optimal spread.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Adverse-selection models explain why full informational efficiency is hard to sustain in equilibrium.
+- [[market-maker-flow|Market-Maker Hedging: Delta Neutrality And Gamma Rebalancing]] — From model to practice: market-maker flow data reflects inventory and hedging outcomes.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

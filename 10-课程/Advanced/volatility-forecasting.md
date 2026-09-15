@@ -4,7 +4,7 @@ title_en: "Volatility Forecasting: From Realized Variance To Out-Of-Sample Condi
 slug: "volatility-forecasting"
 type: lesson
 level: Advanced
-order: 59
+order: 61
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "25 分钟"
@@ -115,6 +115,13 @@ generated: 2026-09-15
 - 压力期单独报告误差，不让平静期的大样本稀释失败。
 - 预测用于风险规划，不保证波动率交易或方向收益。
 
+## 相关概念
+
+- [[realized-vs-implied-volatility|已实现波动率与隐含波动率]] — 预测未来波动是判断隐含波动率是否偏贵的基础。
+- [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 波动率聚集与厚尾要求模型刻画二阶矩的时间结构。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 波动率模型的参数本身并不稳定，参数风险必须显式处理。
+- [[variance-swaps-and-vix|方差互换与 VIX：从期权横截面到风险中性方差]] — 方差互换与 VIX 把波动率预测变成了可交易标的。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -204,6 +211,13 @@ Any stationary model can fail during structural change, jumps, or a liquidity cr
 - When a model suddenly lags, inspect regime change, data revisions, and parameter drift.
 - Report stress-period error separately so calm observations cannot dilute failure.
 - Forecasts support risk planning and do not guarantee volatility-trading or directional returns.
+
+## Related Concepts
+
+- [[realized-vs-implied-volatility|Realized Versus Implied Volatility]] — Forecasting future volatility is the basis for judging whether implied volatility is rich.
+- [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — Volatility clustering and fat tails require modelling the second moment's time structure.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — A volatility model's parameters are themselves unstable, so parameter risk must be handled explicitly.
+- [[variance-swaps-and-vix|Variance Swaps And VIX: From Option Cross-Sections To Risk-Neutral Variance]] — Variance swaps and VIX turn a volatility forecast into a tradable instrument.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

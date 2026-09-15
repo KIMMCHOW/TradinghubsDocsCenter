@@ -4,7 +4,7 @@ title_en: "Intermediate courses"
 type: level
 level: Intermediate
 access: public
-lessons: 31
+lessons: 33
 tags:
   - "文档中心"
   - "等级索引"
@@ -21,15 +21,17 @@ generated: 2026-09-15
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[知识课程总览|课程总览]]
 
-**31 课**
+**33 课**
 
-本阶段共 31 课，按推荐顺序排列。
+本阶段共 33 课，按推荐顺序排列。
 
 - [[rates-treasuries-central-bank-transmission|利率、国债与央行传导]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 17 分钟
 - [[oil-opec-energy-markets|原油、OPEC 与能源市场]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 18 分钟
 - [[trade-capital-flows-fx|贸易、资本流动与外汇]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 19 分钟
 - [[normal-lognormal-distributions|正态、对数正态与收益分布]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 17 分钟
 - [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 17 分钟
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 24 分钟
+- [[random-walk-hypothesis|随机游走假说]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 20 分钟
 - [[market-efficiency-information-signaling|市场效率、信息不对称与信号]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 18 分钟
 - [[game-theory-strategic-interaction|博弈论与市场策略互动]] — [[markets-macro-and-behavior|市场、宏观与行为]] · 18 分钟
 - [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — [[futures-and-options-linkage|期货与期权衔接]] · 17 分钟
@@ -66,6 +68,8 @@ generated: 2026-09-15
 - [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — 19 min
 - [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — 17 min
 - [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — 17 min
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — 24 min
+- [[random-walk-hypothesis|Random Walk Hypothesis]] — 20 min
 - [[market-efficiency-information-signaling|Market Efficiency, Information Asymmetry, And Signals]] — 18 min
 - [[game-theory-strategic-interaction|Game Theory And Strategic Interaction In Markets]] — 18 min
 - [[futures-contract-mechanics-tick-value|Futures Contract Mechanics: Tick Size, Tick Value, And Rolls]] — 17 min

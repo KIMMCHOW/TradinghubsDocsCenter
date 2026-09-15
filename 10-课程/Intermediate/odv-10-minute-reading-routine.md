@@ -4,7 +4,7 @@ title_en: "ODV 10-Minute Reading Routine"
 slug: "odv-10-minute-reading-routine"
 type: lesson
 level: Intermediate
-order: 47
+order: 49
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "10 分钟"
@@ -82,6 +82,13 @@ ODV 的正确位置，是期货交易系统里的结构阅读层。最终决策�
 - 流程能减少漏看，但不能消除交易风险。
 - 没有止损、仓位和失效条件时，不应使用任何结构判断开仓。
 
+## 相关概念
+
+- [[aggregate-options-data|Aggregate Data：总量结构怎么读]] — 固定流程从总量环境开始，再进入节点细节。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 按到期窗口拆分读数，避免把不同期限混为一谈。
+- [[combined-odv-reads|组合读法：趋势延续、吸附与波动放大]] — 流程的终点是组合读法，而不是单张图的结论。
+- [[options-pnl-attribution|期权 P&L 归因：从起止重估到 Greek 解释残差]] — 读图结论最终必须能对应到可解释的损益来源。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -138,6 +145,13 @@ ODV's proper place is the structure-reading layer inside a futures trading syste
 
 - A routine can reduce missed context, but it cannot remove trading risk.
 - Without stop, sizing, and invalidation rules, no structural read should be used as an entry.
+
+## Related Concepts
+
+- [[aggregate-options-data|Aggregate Data: How To Read The Total Structure]] — A fixed routine starts from the aggregate regime before moving into node detail.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Reading by expiry window avoids conflating different horizons.
+- [[combined-odv-reads|Combined Reads: Trend Continuation, Pinning, And Volatility Expansion]] — The routine ends in a combined read rather than a single-chart conclusion.
+- [[options-pnl-attribution|Options P&L Attribution: From Endpoint Revaluation To Greek Explanations]] — A chart conclusion must ultimately map onto an explainable source of P&L.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

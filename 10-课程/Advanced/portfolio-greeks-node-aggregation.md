@@ -4,7 +4,7 @@ title_en: "Portfolio Greeks And Node Aggregation: Align Units Before Net Exposur
 slug: "portfolio-greeks-node-aggregation"
 type: lesson
 level: Advanced
-order: 65
+order: 67
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "24 分钟"
@@ -112,6 +112,13 @@ Greeks 只在当前状态附近描述一阶或高阶导数。现货跳跃、波�
 - 局部近似与完整重估差异扩大时，升级到非线性情景。
 - 组合 Greeks 是风险地图，不是损失上限或自动对冲指令。
 
+## 相关概念
+
+- [[greeks-introduction|Greeks 入门]] — 逐腿敏感度相加是组合层汇总的基础。
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — 按节点汇总时，存量口径决定权重是否可比。
+- [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — 期货与期权敞口必须先换算到同一单位才能相加。
+- [[options-pnl-attribution|期权 P&L 归因：从起止重估到 Greek 解释残差]] — 汇总后的 Greeks 是解释组合损益的一阶框架。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -198,6 +205,13 @@ A model, multiplier, currency, or unit error can contaminate every aggregate sys
 - When the grand net is small, inspect largest positive and negative nodes and maturity mismatch.
 - When local approximation diverges from full revaluation, escalate to nonlinear scenarios.
 - Portfolio Greeks are a risk map, not a loss limit or automatic hedge instruction.
+
+## Related Concepts
+
+- [[greeks-introduction|Introduction To Greeks]] — Summing per-leg sensitivities is the basis of book-level aggregation.
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — When aggregating by node, the standing-position convention decides whether weights are comparable.
+- [[futures-contract-mechanics-tick-value|Futures Contract Mechanics: Tick Size, Tick Value, And Rolls]] — Futures and option exposures must share a unit before they can be added.
+- [[options-pnl-attribution|Options P&L Attribution: From Endpoint Revaluation To Greek Explanations]] — Aggregated Greeks are the first-order frame for explaining book P&L.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

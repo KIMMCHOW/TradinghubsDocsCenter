@@ -4,7 +4,7 @@ title_en: "Risk-Neutral Versus Physical Probability: A Pricing Distribution Is N
 slug: "risk-neutral-vs-physical-probability"
 type: lesson
 level: Advanced
-order: 55
+order: 57
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "24 分钟"
@@ -110,6 +110,13 @@ generated: 2026-09-15
 - 把 Q-P 差异拆成风险溢价、报价噪声与模型误差候选。
 - 该框架解释定价与预测差异，不构成波动率交易建议。
 
+## 相关概念
+
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — BSM 的定价测度是风险中性测度，而不是真实概率。
+- [[binomial-risk-neutral-pricing|二叉树与风险中性定价]] — 二叉树用离散形式展示风险中性概率与贴现如何得到同一价格。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 测度选择本身是一项模型假设，会限定结论的适用范围。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 隐含分布由风险中性测度导出，与真实分布存在系统性差异。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -194,6 +201,13 @@ Risk-neutral variance being above a physical forecast does not make short volati
 - Align horizon, annualization, variance, and volatility units before comparison.
 - Decompose a Q-P gap into risk-premium, quote-noise, and model-error candidates.
 - The framework explains valuation-versus-forecast differences and is not volatility-trading advice.
+
+## Related Concepts
+
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — The measure used to price under BSM is risk-neutral rather than the physical measure.
+- [[binomial-risk-neutral-pricing|Binomial Trees And Risk-Neutral Pricing]] — The binomial tree shows in discrete form how risk-neutral probability and discounting reach the same price.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — Choosing a measure is itself a model assumption that bounds where the conclusion applies.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — The implied distribution comes from the risk-neutral measure and differs systematically from the real one.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

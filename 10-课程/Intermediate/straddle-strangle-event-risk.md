@@ -4,7 +4,7 @@ title_en: "Straddles, Strangles, And Event Volatility"
 slug: "straddle-strangle-event-risk"
 type: lesson
 level: Intermediate
-order: 32
+order: 34
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "20 分钟"
@@ -111,6 +111,13 @@ Short 版本反转现金流：初始收取权利金，若标的留在中间区�
 - 第三步：事件后拆分移动、波动率、Theta 和执行成本贡献。
 - 事件结构可能快速损失权利金或产生开放尾部风险，本课不建议做多或做空事件。
 
+## 相关概念
+
+- [[realized-vs-implied-volatility|已实现波动率与隐含波动率]] — 事件结构的盈亏取决于事件后已实现波动率与隐含波动率的比较。
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — 买入波动率等于承担 Vega 敞口，事件后 IV 回落就是亏损来源。
+- [[time-value-and-theta|时间价值与 Theta]] — 长跨式每日支付 Theta，事件窗口的持有成本必须计入。
+- [[oil-opec-energy-markets|原油、OPEC 与能源市场]] — 供应会议与地缘事件是典型的跳跃风险实例。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -196,6 +203,13 @@ After the event, attribute underlying movement, IV compression, time passage, an
 - Step 2: Map price, IV, time, and liquidity scenarios rather than only the terminal curve.
 - Step 3: Separate movement, volatility, theta, and execution-cost contributions after the event.
 - Event structures can rapidly lose premium or create open-tail risk; this lesson does not recommend buying or selling an event.
+
+## Related Concepts
+
+- [[realized-vs-implied-volatility|Realized Versus Implied Volatility]] — An event structure's outcome turns on comparing post-event realized with implied volatility.
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — Buying volatility means carrying vega exposure, so a post-event IV decline is the loss source.
+- [[time-value-and-theta|Time Value And Theta]] — A long straddle pays theta daily, so holding cost across the event window must be counted.
+- [[oil-opec-energy-markets|Crude Oil, OPEC, And Energy Markets]] — Supply meetings and geopolitical events are canonical jump-risk examples.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

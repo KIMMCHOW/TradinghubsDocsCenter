@@ -114,6 +114,13 @@ generated: 2026-09-15
 - 风险收益判断应在交易前固定，并在新信息出现时按规则更新。
 - 本课不提供个性化仓位或收益目标。
 
+## 相关概念
+
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — 机会成本需要一个可比较的无风险替代方案作为基准。
+- [[sunk-cost-commitment-escalation|沉没成本与承诺升级]] — 效用应用于从当前时点开始的增量结果，而不是已发生成本。
+- [[sharpe-ratio|Sharpe Ratio：单位总波动的超额收益]] — 效用框架解释了为什么单看收益率不足以评价一个结果。
+- [[anchoring-framing-trading-decisions|锚定、框架与交易决策]] — 主观价值会被参考点扭曲，因此实际决策常偏离效用计算。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -202,6 +209,13 @@ Small-sample win rates, backtest selection bias, and regime changes can distort 
 - Opportunity cost requires including no trade and smaller size in the comparison set.
 - Risk-reward judgments should be fixed before entry and updated by rule when new information arrives.
 - This lesson provides no personalized position size or return target.
+
+## Related Concepts
+
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — Opportunity cost needs a comparable risk-free alternative as its benchmark.
+- [[sunk-cost-commitment-escalation|Sunk Costs And Escalation Of Commitment]] — Utility applies to incremental outcomes from the current decision point, not to costs already incurred.
+- [[sharpe-ratio|Sharpe Ratio: Excess Return Per Unit Of Total Volatility]] — The utility frame explains why a raw return is not enough to evaluate an outcome.
+- [[anchoring-framing-trading-decisions|Anchoring, Framing, And Trading Decisions]] — Subjective value is distorted by reference points, so real decisions drift from the utility calculation.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Game Theory And Strategic Interaction In Markets"
 slug: "game-theory-strategic-interaction"
 type: lesson
 level: Intermediate
-order: 23
+order: 25
 track: markets-macro-and-behavior
 track_label: "市场、宏观与行为"
 reading_time: "18 分钟"
@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 信号只有在成本、约束或后续行动使其可信时才有解释力。
 - 本课用于情景建模，不识别或指控任何真实市场参与者。
 
+## 相关概念
+
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 做市报价是在与知情交易者博弈下的最优回应。
+- [[expected-utility-opportunity-cost|期望效用、机会成本与风险收益]] — 博弈支付需要先定义各方的效用与偏离代价。
+- [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 被困仓位是策略互动在价格路径上的可见结果。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 当信息与推理能力不对称时，效率命题的假设需要重新检验。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Players can misjudge, be forced to deleverage, or change objectives; institution
 - Repeated interaction can build reputation and can also collapse quickly under stress.
 - A signal is informative only when cost, constraint, or follow-through makes it credible.
 - This lesson supports scenario modeling and does not identify or accuse real market participants.
+
+## Related Concepts
+
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — Market-maker quoting is a best response in a game against informed traders.
+- [[expected-utility-opportunity-cost|Expected Utility, Opportunity Cost, And Risk-Reward]] — Game payoffs require defining each player's utility and the cost of deviating.
+- [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — Trapped positions are the visible price-path result of strategic interaction.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — When information and reasoning capacity are asymmetric, the efficiency proposition's assumptions need retesting.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

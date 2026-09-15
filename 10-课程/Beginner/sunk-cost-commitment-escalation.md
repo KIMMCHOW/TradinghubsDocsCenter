@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 独立比较替代方案比围绕成本价寻找理由更稳健。
 - 本课不提供个性化止损、加仓或税务指令。
 
+## 相关概念
+
+- [[expected-utility-opportunity-cost|期望效用、机会成本与风险收益]] — 正确基准是从当前时点开始的增量结果与机会成本。
+- [[anchoring-framing-trading-decisions|锚定、框架与交易决策]] — 成本锚点让亏损仓位被持续重新解释为「还没结束」。
+- [[discrete-hedging-error-transaction-costs|离散对冲误差与交易成本：连续理论如何落到有限成交]] — 对冲与调整决策同样应忽略已发生成本，只看剩余敞口与增量成本。
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio 与最大回撤：把复合增长放回路径中]] — 承诺升级的代价最终体现在回撤幅度与恢复时间上。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Bid-ask spread, taxes, market impact, overnight gaps, and multi-leg execution ca
 - Escalation can turn a bounded judgment error into portfolio-level risk.
 - Independent comparison of alternatives is more robust than finding reasons around cost basis.
 - This lesson does not provide personalized stop, sizing, or tax instructions.
+
+## Related Concepts
+
+- [[expected-utility-opportunity-cost|Expected Utility, Opportunity Cost, And Risk-Reward]] — The correct benchmark is incremental outcome and opportunity cost from the current decision point.
+- [[anchoring-framing-trading-decisions|Anchoring, Framing, And Trading Decisions]] — A cost anchor keeps reinterpreting a losing position as "not over yet."
+- [[discrete-hedging-error-transaction-costs|Discrete Hedging Error And Transaction Costs: Bringing Continuous Theory To Finite Trades]] — Hedging decisions should likewise ignore sunk cost and look only at residual exposure and incremental cost.
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio And Maximum Drawdown: Returning Growth To Its Path]] — Escalation of commitment ultimately shows up in drawdown depth and recovery time.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

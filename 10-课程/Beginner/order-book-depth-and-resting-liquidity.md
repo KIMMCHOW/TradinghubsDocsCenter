@@ -81,6 +81,13 @@ generated: 2026-09-15
 - 隐藏流动性只能用成交与价格反应推断，不能从盘口读出。
 - 薄盘口中的一次大成交不能单独证明趋势。
 
+## 相关概念
+
+- [[market-orders-limit-orders-bid-ask|市价单、限价单与买卖报价]] — 挂单流动性由限价单构成，报价深度是其直接体现。
+- [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 隐藏与冰山单让可见深度低于真实意愿。
+- [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 深度不足时，中等规模订单即可穿透多个价位。
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 做市商挂单深度受库存与逆向选择成本约束。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -136,6 +143,13 @@ The same traded volume produces a larger price displacement in a thin book and m
 - Separate cancellations from fills; only fills change positioning.
 - Hidden liquidity can only be inferred from fills and price response, never read from the book.
 - One large print in a thin book cannot establish a trend by itself.
+
+## Related Concepts
+
+- [[market-orders-limit-orders-bid-ask|Market Orders, Limit Orders, And The Bid-Ask Spread]] — Resting liquidity is made of limit orders, and quoted depth is its direct expression.
+- [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — Hidden and iceberg orders make visible depth understate true willingness.
+- [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — When depth is thin, a moderate order can sweep through several price levels.
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — A market maker's resting depth is constrained by inventory and adverse-selection cost.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

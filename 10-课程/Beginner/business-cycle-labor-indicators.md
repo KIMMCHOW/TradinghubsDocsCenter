@@ -114,6 +114,13 @@ generated: 2026-09-15
 - 趋势、广度和修订比一个标题数字更可靠。
 - 本课不预测衰退、政策或数据发布后的交易方向。
 
+## 相关概念
+
+- [[rates-treasuries-central-bank-transmission|利率、国债与央行传导]] — 就业与通胀数据是政策利率路径的主要输入。
+- [[financial-markets-assets-participants|金融市场、资产与参与者角色]] — 周期与就业指标改变各参与者对增长的预期，从而改变资金与风险配置。
+- [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 增长差异通过经常账户与利差传导到汇率与跨境资金流。
+- [[oil-opec-energy-markets|原油、OPEC 与能源市场]] — 能源价格既是周期结果也是通胀输入，构成双向反馈。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -202,6 +209,13 @@ Surveys differ in populations, samples, and definitions and can conflict in the 
 - Surprise relative to expectations is closer to the event-day price response than the absolute number.
 - Trend, breadth, and revisions are more reliable than one headline number.
 - This lesson does not forecast recessions, policy, or post-release trade direction.
+
+## Related Concepts
+
+- [[rates-treasuries-central-bank-transmission|Rates, Treasuries, And Central-Bank Transmission]] — Employment and inflation data are the main inputs to the policy-rate path.
+- [[financial-markets-assets-participants|Financial Markets, Assets, And Participant Roles]] — Cycle and employment indicators shift participants' growth expectations and therefore capital and risk allocation.
+- [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — Growth differentials transmit through the current account and rate spreads into currencies and cross-border flows.
+- [[oil-opec-energy-markets|Crude Oil, OPEC, And Energy Markets]] — Energy prices are both a cycle outcome and an inflation input, which makes the feedback two-way.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

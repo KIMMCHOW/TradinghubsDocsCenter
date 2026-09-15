@@ -4,7 +4,7 @@ title_en: "Gamma And Convexity: Why Buyers Are Long Gamma"
 slug: "gamma-convexity"
 type: lesson
 level: Intermediate
-order: 35
+order: 37
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "17 分钟"
@@ -79,6 +79,12 @@ Long Call 和 Long Put 的价值曲线都是凸的：价格往有利方向移动
 - Gamma 高的 Strike 附近，Delta hedge 可能更频繁。
 - 理解 Long / Short Gamma 后，再看吸附、加速和 0DTE 盘中波动会更清楚。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — Gamma 是 Delta 对现货的二阶导数，必须沿曲线读。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 把 Gamma 与持仓规模和 OI 结合就得到敞口指标 GEX。
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — 高 Gamma 意味着 Delta 对冲必须频繁调整。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -132,6 +138,12 @@ If a dealer is net short gamma, rising prices can push hedge delta in the rising
 - Gamma is hedge sensitivity, not a direction signal.
 - Around high-gamma strikes, delta hedges may need more frequent adjustment.
 - Once long / short gamma is clear, pinning, acceleration, and 0DTE intraday movement become easier to read.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Gamma is the second derivative of delta with respect to spot and must be read along the curve.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Combining gamma with position size and OI produces the exposure metric GEX.
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — High gamma means a delta hedge must be adjusted frequently.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

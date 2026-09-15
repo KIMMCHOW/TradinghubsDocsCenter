@@ -4,7 +4,7 @@ title_en: "Expressing Futures Exposure With Options: Synthetics And Equivalent S
 slug: "synthetic-futures-and-delta-equivalent-sizing"
 type: lesson
 level: Advanced
-order: 88
+order: 90
 track: futures-and-options-linkage
 track_label: "期货与期权衔接"
 reading_time: "22 分钟"
@@ -132,6 +132,13 @@ Delta 会随价格移动而改变，所以等值手数是一个瞬时值而不�
 - 核对行权风格与结算方式，美式期货期权存在提前指派风险。
 - 等值手数随价格变动，必须在过程里重新计算而不是一次设定。
 
+## 相关概念
+
+- [[no-arbitrage-and-synthetics|无套利边界与合成头寸]] — 合成期货是看涨看跌平价与无套利约束的直接应用。
+- [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — 等值手数必须使用目标合约的真实点值。
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — 合成敞口随标的变化，因为其 Delta 不是常数。
+- [[futures-flow-from-options-positioning|期权定位如何传导到期货价格]] — 等值换算是把期权仓位转化为期货对冲需求的算术桥梁。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -238,6 +245,13 @@ The failure list is equally clear: a holding period longer than the option expir
 - Include time decay and volatility change in the comparison, not only direction.
 - Verify exercise style and settlement; American-style futures options carry early-assignment risk.
 - Equivalent lots change with price and must be recomputed during the trade, not set once.
+
+## Related Concepts
+
+- [[no-arbitrage-and-synthetics|No-Arbitrage Bounds And Synthetic Positions]] — A synthetic future is a direct application of put-call parity and the no-arbitrage constraint.
+- [[futures-contract-mechanics-tick-value|Futures Contract Mechanics: Tick Size, Tick Value, And Rolls]] — Equivalent sizing must use the real tick value of the target contract.
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — A synthetic exposure drifts with the underlying because its delta is not constant.
+- [[futures-flow-from-options-positioning|How Options Positioning Transmits Into Futures Prices]] — Equivalent sizing is the arithmetic bridge from option positioning to futures hedge demand.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

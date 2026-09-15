@@ -4,7 +4,7 @@ title_en: "Market-Maker Hedging: Delta Neutrality And Gamma Rebalancing"
 slug: "market-maker-flow"
 type: lesson
 level: Intermediate
-order: 42
+order: 44
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "16 分钟"
@@ -114,6 +114,13 @@ ODV 的 GEX、DEX、VEX 与 CHEX 是各窗口的预计算模型值，用来定�
 | 显示值为负 | 只表示当前模型的负号口径。 | 不能据此推断 dealer Short Gamma 或买入对冲。 |
 | 同一视图内条形较宽 | 表示该行权价相对同视图其他行权价更突出。 | 不可跨标的、指标、DTE 或快照比较绝对值。 |
 
+## 相关概念
+
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 做市流是做市模型在真实成交数据上的投影。
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — 必须先判断方向归属，做市流才有可解释的含义。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 做市商对冲是 Gamma 敞口传导到期货的现实通道。
+- [[futures-flow-from-options-positioning|期权定位如何传导到期货价格]] — 对冲结果最终体现为期货订单流。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -202,6 +209,13 @@ ODV GEX, DEX, VEX, and CHEX are precomputed model values for each window and hel
 | Displayed value is positive | It records the positive side of the current model convention. | It does not establish long dealer gamma or selling hedges. |
 | Displayed value is negative | It records the negative side of the current model convention. | It does not establish short dealer gamma or buying hedges. |
 | A wider bar within one view | That strike is more prominent relative to other strikes in the same view. | Do not compare raw magnitude across symbols, metrics, DTE windows, or snapshots. |
+
+## Related Concepts
+
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — Market-maker flow is the projection of the market-making model onto real trade data.
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — Direction attribution must come first before market-maker flow carries a meaning.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Market-maker hedging is the real channel through which gamma exposure reaches futures.
+- [[futures-flow-from-options-positioning|How Options Positioning Transmits Into Futures Prices]] — The hedge outcome ultimately shows up as futures order flow.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

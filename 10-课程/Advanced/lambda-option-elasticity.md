@@ -4,7 +4,7 @@ title_en: "Lambda: Turning Delta Into Price Elasticity"
 slug: "lambda-option-elasticity"
 type: lesson
 level: Advanced
-order: 69
+order: 71
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "20 分钟"
@@ -113,6 +113,13 @@ Lambda 是模型与报价输入下的瞬时一阶指标，不包含跳空、IV �
 - 决策前使用可成交价格、费用与联合情景重新计算现金损益。
 - 本课用于风险度量教学，不构成对方向、合约或杠杆水平的建议。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — Lambda 是 Delta 的百分比化形式，用于比较不同价格的合约。
+- [[options-contract-and-quote|期权基础：合约与报价]] — 权利金基数决定同一 Delta 对应的不同杠杆水平。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 杠杆放大的收益与损失在绝对值上并不对称。
+- [[sharpe-ratio|Sharpe Ratio：单位总波动的超额收益]] — 杠杆提高名义收益，但不改变按风险调整后的比较结果。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -200,6 +207,13 @@ Lambda is an instantaneous first-order measure under stated model and quote inpu
 - Mark the metric unstable when V is near zero or portfolio value crosses zero.
 - Recalculate cash P&L with executable prices, costs, and joint scenarios before any decision.
 - This lesson teaches risk measurement and does not recommend a direction, contract, or leverage level.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Lambda is a percentage-scaled delta used to compare contracts at different prices.
+- [[options-contract-and-quote|Options Basics: Contracts And Quotes]] — The premium base determines how much leverage the same delta implies.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Leverage magnifies gains and losses asymmetrically in absolute terms.
+- [[sharpe-ratio|Sharpe Ratio: Excess Return Per Unit Of Total Volatility]] — Leverage raises headline return without changing the risk-adjusted comparison.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

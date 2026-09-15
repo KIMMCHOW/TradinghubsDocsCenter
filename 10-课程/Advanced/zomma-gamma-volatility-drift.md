@@ -4,7 +4,7 @@ title_en: "Zomma: How Gamma Changes With Volatility"
 slug: "zomma-gamma-volatility-drift"
 type: lesson
 level: Advanced
-order: 77
+order: 79
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "21 分钟"
@@ -124,6 +124,13 @@ Zomma 的正负不能证明 Gamma 会改善或恶化，因为实际结果还取�
 - 不要假设固定符号，也不要由 OI 推断未知参与者仓位。
 - 本课用于管理 Gamma–IV 交叉风险，不构成波动率或方向交易建议。
 
+## 相关概念
+
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Zomma 是 Gamma 随隐含波动率的变化率。
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — 同一个波动率变动会同时改变 Vega 与 Gamma 敞口。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 波动率水平与曲率的联合变化决定 Zomma 的实际影响。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 事件后 IV 回落会同时压低价格与 Gamma，必须一并评估。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -222,6 +229,13 @@ Zomma's sign cannot prove gamma will improve or deteriorate because the realized
 - Use small parallel shocks for diagnostics and full-surface repricing for non-parallel or large shocks.
 - Assume neither a fixed sign nor unknown participant positions from OI.
 - This lesson manages gamma-IV cross risk and is not volatility or directional trading advice.
+
+## Related Concepts
+
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Zomma is the rate at which gamma changes with implied volatility.
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — The same volatility move changes both vega and gamma exposure.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Joint changes in volatility level and curvature determine zomma's practical effect.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — A post-event IV decline lowers both price and gamma, so both must be assessed together.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

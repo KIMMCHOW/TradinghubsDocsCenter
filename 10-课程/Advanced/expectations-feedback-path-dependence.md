@@ -4,7 +4,7 @@ title_en: "Expectations, Feedback, And Path Dependence"
 slug: "expectations-feedback-path-dependence"
 type: lesson
 level: Advanced
-order: 48
+order: 50
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "19 分钟"
@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 期限结构、偏度与跨资产关系应作为链条证据，而非单独结论。
 - 本课不预测具体反馈转折点或任何资产方向。
 
+## 相关概念
+
+- [[game-theory-strategic-interaction|博弈论与市场策略互动]] — 参与者对彼此反应的预期是反馈回路的第一层。
+- [[anchoring-framing-trading-decisions|锚定、框架与交易决策]] — 个体偏差经聚合后形成可持续的价格路径。
+- [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 被困仓位通过被迫平仓放大原有方向。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 自我强化过程是异象与泡沫的核心动力学解释。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Feedback chains can be interrupted by valuation, fresh capital, policy, expiry, 
 - Positive feedback increases trend speed and vulnerability when it reverses.
 - Term structure, skew, and cross-asset relationships are evidence about a chain, not standalone conclusions.
 - This lesson does not forecast a specific feedback turning point or asset direction.
+
+## Related Concepts
+
+- [[game-theory-strategic-interaction|Game Theory And Strategic Interaction In Markets]] — Expectations about others' reactions are the first layer of the feedback loop.
+- [[anchoring-framing-trading-decisions|Anchoring, Framing, And Trading Decisions]] — Aggregated individual bias produces a persistent price path.
+- [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — Trapped positions amplify the original direction through forced liquidation.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Self-reinforcing processes are the core dynamic explanation of anomalies and bubbles.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

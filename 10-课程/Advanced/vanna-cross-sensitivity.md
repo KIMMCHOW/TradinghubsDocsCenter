@@ -4,7 +4,7 @@ title_en: "Vanna: The Delta–Volatility Cross Sensitivity"
 slug: "vanna-cross-sensitivity"
 type: lesson
 level: Advanced
-order: 71
+order: 73
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "22 分钟"
@@ -130,6 +130,13 @@ Vanna 衡量波动率变化时 Delta 如何改变，也等价于标的变化时 
 - VEX 保持产品字段语义，不使用通用 OI × Vanna 公式重建。
 - 本课不推断做市商库存、强制对冲方向或未来现货路径，也不构成交易建议。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — Vanna 描述 Delta 随波动率变化，是交叉二阶敏感度。
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — 同一现象也可读作 Vega 随现货变化。
+- [[skew-term-structure|Skew / Term Structure]] — 偏斜随现货移动的幅度决定了 Vanna 敞口的大小。
+- [[vanna-exposure-vex|VEX：Vanna Exposure 怎么看]] — 把 Vanna 与持仓结合就得到敞口指标 VEX。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -234,6 +241,13 @@ The existing ODV VEX lesson must be read under its product-field definition; thi
 - Aggregate only owned positions with known signs; unknown market positions remain unknown.
 - Preserve VEX's product-field semantics; do not reconstruct it with generic OI × vanna.
 - This lesson infers neither dealer inventory, forced hedge direction, nor future spot path and is not trading advice.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Vanna describes how delta changes with volatility, a cross second-order sensitivity.
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — The same phenomenon can be read as vega changing with spot.
+- [[skew-term-structure|Skew / Term Structure]] — How much skew moves with spot determines the size of the vanna exposure.
+- [[vanna-exposure-vex|VEX: How To Read Vanna Exposure]] — Combining vanna with positioning produces the exposure metric VEX.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

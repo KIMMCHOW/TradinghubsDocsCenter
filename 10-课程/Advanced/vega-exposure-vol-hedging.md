@@ -4,7 +4,7 @@ title_en: "Vega Exposure And Vol Hedging"
 slug: "vega-exposure-vol-hedging"
 type: lesson
 level: Advanced
-order: 64
+order: 66
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "16 分钟"
@@ -94,6 +94,13 @@ Vega 与 Gamma / Theta 的区别在于，它关注 IV 输入重定价，而不�
 - Long Vega / Short Vega 描述风险暴露，不是推荐持仓。
 - IV 冲击可能通过风险管理链路影响期货流动性。
 
+## 相关概念
+
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — Vega 敞口是波动率对冲的对象。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 同额 Vega 在不同执行价与期限上的风险并不等价。
+- [[variance-swaps-and-vix|方差互换与 VIX：从期权横截面到风险中性方差]] — 方差与 VIX 工具提供了另一种波动率对冲手段。
+- [[volga-vomma-volatility-convexity|Volga / Vomma：波动率凸性]] — 波动率变化幅度较大时，线性对冲需要补上凸性项。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -162,6 +169,13 @@ IV can rise before an event and fall afterward, changing portfolio risk and hedg
 
 - Long vega / short vega describes exposure, not a recommended position.
 - IV shocks can affect futures liquidity through risk-management chains.
+
+## Related Concepts
+
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — Vega exposure is what a volatility hedge is designed to offset.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Equal vega across strikes and expiries does not mean equal risk.
+- [[variance-swaps-and-vix|Variance Swaps And VIX: From Option Cross-Sections To Risk-Neutral Variance]] — Variance and VIX instruments provide an alternative volatility hedge.
+- [[volga-vomma-volatility-convexity|Volga / Vomma: Volatility Convexity]] — When volatility moves are large, a linear hedge needs a convexity term.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -93,6 +93,13 @@ Long Call 的 break-even 通常是 Strike + Premium；Long Put 的 break-even �
 - 卖方仓位密集区可能带来不同的 Gamma 环境。
 - 这解释市场现象，不构成做多或做空建议。
 
+## 相关概念
+
+- [[options-contract-and-quote|期权基础：合约与报价]] — 盈亏边界必须建立在正确的权利、义务与乘数之上。
+- [[option-spread-structures|价差与组合结构]] — 多腿结构的风险由单腿盈亏相加得到。
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — 盈亏图的斜率就是 Delta，形状变化来自 Gamma。
+- [[exercise-assignment-settlement-pin-risk|行权、指派、结算与 Pin Risk]] — 到期盈亏在结算与指派规则下才成为实际现金流。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -160,6 +167,13 @@ When many single-leg positions cluster around strikes, dealers may need to adjus
 - Near a strike, hedging demand can become more sensitive.
 - Dense short-option areas can create different gamma regimes.
 - This explains market behavior; it is not a long or short recommendation.
+
+## Related Concepts
+
+- [[options-contract-and-quote|Options Basics: Contracts And Quotes]] — Payoff boundaries must rest on the correct rights, obligations, and multiplier.
+- [[option-spread-structures|Spread And Multi-Leg Structures]] — A multi-leg structure's risk is the sum of its single-leg payoffs.
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — The slope of the payoff diagram is delta, and the change in that slope is gamma.
+- [[exercise-assignment-settlement-pin-risk|Exercise, Assignment, Settlement, And Pin Risk]] — Expiration payoff becomes actual cash flow only under settlement and assignment rules.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

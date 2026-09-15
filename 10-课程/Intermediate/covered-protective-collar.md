@@ -4,7 +4,7 @@ title_en: "Covered, Protective, And Collar Structures"
 slug: "covered-protective-collar"
 type: lesson
 level: Intermediate
-order: 30
+order: 32
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "19 分钟"
@@ -111,6 +111,13 @@ Protective Put 由 Long Underlying 与 Long Put 组成。Put 在执行价以下�
 - 第三步：加入股息、指派、滚动、成交与结算后的仓位情景。
 - 这些结构用于教学比较，不代表适合任何特定投资目标或账户。
 
+## 相关概念
+
+- [[option-spread-structures|价差与组合结构]] — 备兑与保护性结构是股票叠加单腿期权的组合。
+- [[vertical-ratio-backspread|垂直价差、Ratio Spread 与 Backspread]] — 领口两端可以分别看作买入与卖出的垂直结构腿。
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 股票 Delta 与期权 Greeks 必须合并计算才是真实敞口。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 领口的作用是压缩尾部损失，而不是提高期望收益。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -196,6 +203,13 @@ Then enumerate positions after early call assignment, put exercise, both options
 - Step 2: Calculate terminal value by price region and cross-check hidden exposure with synthetics.
 - Step 3: Add dividend, assignment, roll, execution, and post-settlement position scenarios.
 - These structures are compared for education and are not represented as suitable for any particular objective or account.
+
+## Related Concepts
+
+- [[option-spread-structures|Spread And Multi-Leg Structures]] — Covered and protective structures are a stock position plus single option legs.
+- [[vertical-ratio-backspread|Vertical Spreads, Ratio Spreads, And Backspreads]] — The two collar wings can be read as bought and sold vertical legs.
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — Stock delta and option Greeks must be combined to get the real exposure.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — A collar compresses tail loss rather than raising expected return.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

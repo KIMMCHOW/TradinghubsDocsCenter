@@ -4,7 +4,7 @@ title_en: "Multi-Metric Risk Dashboard: Aligning Return, Tail, Path, Sensitivity
 slug: "multi-metric-risk-dashboard"
 type: lesson
 level: Advanced
-order: 53
+order: 55
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "23 分钟"
@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 超限时先验证单位、乘数、币种与重复持仓，再判断真实风险。
 - 面板用于监控与升级，不构成自动下单或风险承诺。
 
+## 相关概念
+
+- [[sharpe-ratio|Sharpe Ratio：单位总波动的超额收益]] — 波动率维度由 Sharpe 一类比值表达。
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio 与最大回撤：把复合增长放回路径中]] — 路径维度由回撤与恢复时间表达。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 尾部维度由期望损失表达。
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 敏感度维度把组合 Greeks 纳入同一张风险看板。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Limits do not guarantee a loss boundary, and historical thresholds cannot cover 
 - A red item triggers its own review and cannot be offset by another green measure.
 - On a breach, validate units, multipliers, currency, and duplicate positions before judging real risk.
 - The dashboard supports monitoring and escalation, not automatic orders or a risk guarantee.
+
+## Related Concepts
+
+- [[sharpe-ratio|Sharpe Ratio: Excess Return Per Unit Of Total Volatility]] — The volatility dimension is expressed by Sharpe-type ratios.
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio And Maximum Drawdown: Returning Growth To Its Path]] — The path dimension is expressed by drawdown and recovery time.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — The tail dimension is expressed by expected shortfall.
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — The sensitivity dimension brings portfolio Greeks onto the same risk dashboard.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

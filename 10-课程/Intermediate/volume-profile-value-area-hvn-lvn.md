@@ -4,7 +4,7 @@ title_en: "Volume Profile: Value Area, HVN, And LVN"
 slug: "volume-profile-value-area-hvn-lvn"
 type: lesson
 level: Intermediate
-order: 27
+order: 29
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "18 分钟"
@@ -72,6 +72,13 @@ generated: 2026-09-15
 - 区分活动型分布与存量型分布，避免把过去成交当当前仓位。
 - 在低成交量空档中仍要求成交确认，因为稀薄不等于无阻力。
 
+## 相关概念
+
+- [[auction-market-theory-value-and-imbalance|拍卖市场理论：价值、平衡与失衡]] — 价值区与 HVN／LVN 是拍卖结果在成交量分布上的投影。
+- [[order-flow-footprint-delta-cvd|订单流、Footprint、Delta 与累计 Delta]] — 成交量分布给出位置，Delta 给出该位置的多空主动性。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — LVN 区域通常对应较薄的历史成交与较弱的价格接受度。
+- [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 节点处的吸收与分布在同一张图上互相验证。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -118,6 +125,13 @@ The most useful practice is to place the two side by side instead of blending th
 - Treat nodes and gaps as relative participation, not fixed support or resistance.
 - Separate activity profiles from position profiles so past trade is not read as current exposure.
 - Require trade confirmation inside low-volume gaps; thin does not mean unrestricted.
+
+## Related Concepts
+
+- [[auction-market-theory-value-and-imbalance|Auction Market Theory: Value, Balance, And Imbalance]] — Value area and HVN/LVN are the projection of an auction result onto the volume distribution.
+- [[order-flow-footprint-delta-cvd|Order Flow, Footprint, Delta, And Cumulative Delta]] — The volume distribution gives the location, and delta gives the aggressiveness at that location.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — An LVN area usually maps to thin historical trade and weak price acceptance.
+- [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — Absorption at a node and the distribution validate each other on the same chart.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

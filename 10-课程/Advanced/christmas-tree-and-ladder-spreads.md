@@ -4,7 +4,7 @@ title_en: "Christmas Tree And Ladder Spreads: Verify The Leg Convention"
 slug: "christmas-tree-and-ladder-spreads"
 type: lesson
 level: Advanced
-order: 81
+order: 83
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "22 分钟"
@@ -118,6 +118,13 @@ generated: 2026-09-15
 - 第三步：用 Spot × IV × Time 联合情景完整重估，再加入价差、保证金与指派。
 - 该结构展示风险形状，不构成对任何执行价、方向或持有期限的建议。
 
+## 相关概念
+
+- [[vertical-ratio-backspread|垂直价差、Ratio Spread 与 Backspread]] — Christmas Tree 与 Ladder 是比率结构的非对称变体。
+- [[option-spread-structures|价差与组合结构]] — 多腿定价与盈亏边界仍按各腿相加计算。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 当卖出腿多于买入腿时，尾部风险必须单独评估。
+- [[calendar-diagonal-butterfly-condor|Calendar、Diagonal、Butterfly、Condor 与 Iron Condor]] — 与其他有界结构对照阅读，可看清风险边界的差别。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -210,6 +217,13 @@ Execution risk includes three quote groups, as many as six options, partial fill
 - Step 2: Calculate net slope in every strike region and state whether both tails return to zero or a -1 open tail remains.
 - Step 3: Fully revalue joint spot-by-IV-by-time scenarios, then add spreads, margin, and assignment.
 - The structure demonstrates a risk shape and is not a recommendation for any strike, direction, or holding period.
+
+## Related Concepts
+
+- [[vertical-ratio-backspread|Vertical Spreads, Ratio Spreads, And Backspreads]] — Christmas trees and ladders are asymmetric variants of ratio structures.
+- [[option-spread-structures|Spread And Multi-Leg Structures]] — Multi-leg pricing and payoff boundaries still add across the legs.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — When sold legs outnumber bought legs, tail risk must be assessed separately.
+- [[calendar-diagonal-butterfly-condor|Calendars, Diagonals, Butterflies, Condors, And Iron Condors]] — Reading these against other defined-risk structures makes the boundary difference clear.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

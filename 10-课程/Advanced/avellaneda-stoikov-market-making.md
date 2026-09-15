@@ -4,7 +4,7 @@ title_en: "Avellaneda–Stoikov Market Making: Inventory Skew, Spread, And Calib
 slug: "avellaneda-stoikov-market-making"
 type: lesson
 level: Advanced
-order: 84
+order: 86
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "28 分钟"
@@ -111,6 +111,13 @@ A、k 和 σ 会随时段、波动状态、盘口深度与事件快速变化，�
 - 回测必须包含未成交报价、真实成本、订单状态和压力库存。
 - 本模型仅用于教学与基准研究，不是生产报价、自动下单或收益承诺。
 
+## 相关概念
+
+- [[market-making-inventory-adverse-selection|做市库存与逆向选择：价差收入不是免费收益]] — 库存与逆向选择是该模型的直觉来源与前置概念。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 成交强度与风险偏好假设决定模型输出是否可用。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 最优价差最终表现为盘口上的挂单深度与距离。
+- [[discrete-hedging-error-transaction-costs|离散对冲误差与交易成本：连续理论如何落到有限成交]] — 库存管理本身就是带成本的离散对冲问题。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -196,6 +203,13 @@ A, k, and sigma can change rapidly with session, volatility regime, book depth, 
 - When fills diverge from the model, separate A-k drift, queue, latency, and adverse selection.
 - Backtests must include nonfills, realistic costs, order state, and stressed inventory.
 - This model is for teaching and benchmark research only, not production quoting, automatic orders, or return promises.
+
+## Related Concepts
+
+- [[market-making-inventory-adverse-selection|Market-Making Inventory And Adverse Selection: Spread Capture Is Not Free Return]] — Inventory and adverse selection are the model's intuition and its prerequisite concepts.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — Fill-intensity and risk-preference assumptions determine whether the model's output is usable.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — The optimal spread ultimately appears as depth and distance in the book.
+- [[discrete-hedging-error-transaction-costs|Discrete Hedging Error And Transaction Costs: Bringing Continuous Theory To Finite Trades]] — Inventory management is itself a cost-bearing discrete hedging problem.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

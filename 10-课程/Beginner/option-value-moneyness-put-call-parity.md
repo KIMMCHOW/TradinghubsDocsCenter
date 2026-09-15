@@ -112,6 +112,13 @@ Call 的内在价值来自标的价格高于执行价的部分，Put 的内在�
 - 第三步：用 Parity 检查相对价格，但把股息、借券、风格和执行成本列为边界。
 - 本流程用于识别价格组成，不构成对任何合约的交易建议。
 
+## 相关概念
+
+- [[options-contract-and-quote|期权基础：合约与报价]] — 先确认 Strike、Expiration 与乘数，Parity 才有明确定义。
+- [[no-arbitrage-and-synthetics|无套利边界与合成头寸]] — 平价关系是第一个可检验的无套利约束，也是合成头寸的基础。
+- [[forwards-futures-basis-cost-of-carry|远期、期货、基差与持有成本：从现货到股指公平价值]] — 平价中的远期项由持有成本与分红决定。
+- [[time-value-and-theta|时间价值与 Theta]] — 内在价值与时间价值的拆分直接决定 Theta 的行为。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -198,6 +205,13 @@ Use parity only at the end as a consistency check. A temporary gap may reflect a
 - Step 2: Split premium into intrinsic and extrinsic value and mark quote width.
 - Step 3: Check relative pricing with parity while treating dividends, borrow, style, and execution costs as boundaries.
 - This workflow identifies price components and is not a recommendation for any contract.
+
+## Related Concepts
+
+- [[options-contract-and-quote|Options Basics: Contracts And Quotes]] — Strike, expiration, and multiplier must be fixed before parity has a defined meaning.
+- [[no-arbitrage-and-synthetics|No-Arbitrage Bounds And Synthetic Positions]] — Parity is the first testable no-arbitrage constraint and the basis of synthetic positions.
+- [[forwards-futures-basis-cost-of-carry|Forwards, Futures, Basis, And Cost Of Carry: From Spot To Equity-Index Fair Value]] — The forward term inside parity is set by cost of carry and dividends.
+- [[time-value-and-theta|Time Value And Theta]] — The split between intrinsic and time value directly determines how theta behaves.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

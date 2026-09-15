@@ -96,6 +96,13 @@ Bid 是最优买单价格，Ask 是最优卖单价格。买方的市价单成交
 - 把未成交的挂单视为意图而非承诺，撤单可以让盘口在瞬间改变。
 - 执行成本是概率加权的结果，单看一次成交无法证明方向。
 
+## 相关概念
+
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 订单类型决定成交方式，盘口深度决定成交代价。
+- [[liquidity-slippage-execution|流动性、滑点与期权执行]] — 主动与被动选择的差别最终体现为价差与滑点。
+- [[price-discovery-market-clearing|价格发现与市场出清]] — 限价单与市场单的交互就是价格发现的过程。
+- [[order-flow-footprint-delta-cvd|订单流、Footprint、Delta 与累计 Delta]] — 订单类型分类是解读主动成交与 Delta 的前提。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -166,6 +173,13 @@ A single print can simultaneously contain real repricing, temporary impact from 
 - Compare relative spread rather than absolute spread across instruments and price levels.
 - Read resting orders as intent, not commitment; cancellation can change the book instantly.
 - Execution cost is probability-weighted; one print cannot establish direction.
+
+## Related Concepts
+
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Order type decides how you trade; book depth decides what it costs.
+- [[liquidity-slippage-execution|Liquidity, Slippage, And Option Execution]] — The choice between aggressive and passive shows up as spread and slippage.
+- [[price-discovery-market-clearing|Price Discovery And Market Clearing]] — The interaction of limit and market orders is the price-discovery process itself.
+- [[order-flow-footprint-delta-cvd|Order Flow, Footprint, Delta, And Cumulative Delta]] — Order-type classification is the precondition for reading aggressive volume and delta.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

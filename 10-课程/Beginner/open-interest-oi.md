@@ -80,6 +80,13 @@ Options Data Viewer 中应先把最近发布的 OI 当作结构底图，再用�
 - 大 OI 与 GEX 峰值重合时，结构意义通常更强。
 - OI 不说明方向，必须结合 Flow、GEX、DEX、IV 和价格行为。
 
+## 相关概念
+
+- [[options-volume-participation|Volume：期权参与强度怎么读]] — OI 是存量，Volume 是当日活动，两者必须联合解读。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 敞口指标以 OI 为权重基础，理解存量才能理解敞口。
+- [[delta-exposure-dex|DEX：Delta Exposure 怎么看]] — DEX 把 OI 与 Delta 结合，形成方向性存量敞口。
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — OI 变化是判断成交属于开仓还是平仓的关键证据。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -134,6 +141,13 @@ When many contracts cluster around a strike, dealer hedging, customer exits, rol
 - OI is the base ledger for ODV reading.
 - High OI overlapping with a GEX peak usually carries stronger structural relevance.
 - OI does not define direction; combine it with flow, GEX, DEX, IV, and price behavior.
+
+## Related Concepts
+
+- [[options-volume-participation|Volume: How To Read Options Participation Strength]] — OI is a stock and volume is daily activity, so the two must be read together.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Exposure metrics are weighted by OI, so standing positioning must be understood first.
+- [[delta-exposure-dex|DEX: How To Read Delta Exposure]] — DEX combines OI with delta into a directional standing exposure.
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — A change in OI is the key evidence for whether a trade opened or closed a position.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

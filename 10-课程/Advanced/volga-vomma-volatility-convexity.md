@@ -4,7 +4,7 @@ title_en: "Volga / Vomma: Volatility Convexity"
 slug: "volga-vomma-volatility-convexity"
 type: lesson
 level: Advanced
-order: 73
+order: 75
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "22 分钟"
@@ -118,6 +118,13 @@ Vomma 是当前模型曲面的局部二阶导数。大幅 IV 变化会改变 Veg
 - 不要假设 Vomma 恒正，也不要从单一平行冲击推断整张曲面。
 - 本课用于识别波动率曲率风险，不构成买入或卖出波动率的建议。
 
+## 相关概念
+
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — Volga 是 Vega 对波动率的二阶导，即波动率凸性。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 曲面曲率决定同一结构在不同波动率水平上的表现差异。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 事件前后 IV 大幅变化时，Volga 决定结构的非对称反应。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 二阶敏感度高度依赖模型设定，模型误差会被放大。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -210,6 +217,13 @@ Positive vomma describes local convexity only. It does not erase initial premium
 - Use a quadratic approximation for small shocks; fully reprice large shocks.
 - Assume neither always-positive vomma nor an entire surface from one parallel shock.
 - This lesson identifies volatility-curvature risk and does not advise buying or selling volatility.
+
+## Related Concepts
+
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — Volga is the second derivative of vega with respect to volatility, i.e. volatility convexity.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Surface curvature determines how the same structure behaves at different volatility levels.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — When IV moves sharply around an event, volga determines the structure's asymmetric response.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — Second-order sensitivities depend heavily on the model, so model error is amplified.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

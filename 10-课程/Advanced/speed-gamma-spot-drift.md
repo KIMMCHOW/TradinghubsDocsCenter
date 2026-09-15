@@ -4,7 +4,7 @@ title_en: "Speed: How Gamma Changes With Spot"
 slug: "speed-gamma-spot-drift"
 type: lesson
 level: Advanced
-order: 75
+order: 77
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "21 分钟"
@@ -118,6 +118,13 @@ Speed 不包含 IV、时间、跳空、流动性或离散行权效应。任何�
 - 大行情和到期附近改用逐节点完整重估。
 - 本课不把 Speed 解释为市场方向信号，也不构成交易建议。
 
+## 相关概念
+
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Speed 是 Gamma 对现货的三阶导，描述凸性自身的变化。
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — 只有把 Delta 曲线画出来，Speed 才有可读的几何含义。
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — 高 Speed 意味着较大位移后原有对冲比例会迅速失效。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 三阶敏感度对模型设定极为敏感，只宜用于小幅位移。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -210,6 +217,13 @@ Speed excludes IV, time, gaps, liquidity, and discrete exercise effects. Any lar
 - Use speed to update gamma or delta only over a small neighborhood.
 - Use node-by-node full repricing for large moves and near expiry.
 - This lesson does not interpret speed as a market-direction signal and is not trading advice.
+
+## Related Concepts
+
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Speed is the third derivative with respect to spot: how convexity itself changes.
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Speed only becomes geometrically readable once the delta curve is drawn.
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — High speed means the existing hedge ratio fails quickly after a larger move.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — Third-order sensitivities are highly model-dependent and are only usable for small moves.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Variance Swaps And VIX: From Option Cross-Sections To Risk-Neutral Va
 slug: "variance-swaps-and-vix"
 type: lesson
 level: Advanced
-order: 60
+order: 62
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "26 分钟"
@@ -103,6 +103,13 @@ VIX 是按规则计算的指数，不是可直接交割的一篮子现货。VIX 
 - 指数跳升时同时检查近远期结构和期权报价质量。
 - 本课解释方差定价，不构成买卖波动率衍生品的建议。
 
+## 相关概念
+
+- [[volatility-forecasting|波动率预测：从实现方差到样本外条件预测]] — 方差敞口的盈亏取决于已实现方差与约定方差之差。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 方差互换的公平水平由整条曲面上的期权组合决定。
+- [[vega-exposure-vol-hedging|Vega Exposure 与 Vol Hedging]] — 方差敞口是 Vega 敞口在期限与执行价上的积分形式。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 卖出方差在极端行情下的损失远超线性估计。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -180,6 +187,13 @@ Variance swaps and volatility derivatives carry convexity, jump, liquidity, marg
 - Before comparing with realized volatility, square or take roots as needed and align horizon and annualization.
 - When the index jumps, inspect term structure and option-quote quality together.
 - This lesson explains variance pricing and is not advice to trade volatility derivatives.
+
+## Related Concepts
+
+- [[volatility-forecasting|Volatility Forecasting: From Realized Variance To Out-Of-Sample Conditional Forecasts]] — Variance exposure pays the difference between realized and contracted variance.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — A variance swap's fair level is set by an option strip across the whole surface.
+- [[vega-exposure-vol-hedging|Vega Exposure And Vol Hedging]] — Variance exposure is vega exposure integrated across expiry and strike.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Short variance loses far more than a linear estimate in extreme markets.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

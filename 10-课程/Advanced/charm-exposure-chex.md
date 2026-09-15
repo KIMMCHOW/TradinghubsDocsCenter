@@ -4,7 +4,7 @@ title_en: "CHEX: How To Read Charm Exposure"
 slug: "charm-exposure-chex"
 type: lesson
 level: Advanced
-order: 79
+order: 81
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "13 分钟"
@@ -88,6 +88,13 @@ Charm 衡量 Delta 对时间流逝的敏感度。理论上要先确认导数针�
 - CHEX 是模型时间敏感度读数，不是方向信号或已观测到的对冲流。
 - 到期越近，越要把 CHEX 和 DTE 分开看。
 
+## 相关概念
+
+- [[charm-delta-time-decay|Charm：Delta 随日历时间的漂移]] — CHEX 是 Charm 在真实仓位上的聚合。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 时间维度敞口必须按到期窗口分开读。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 把 GEX 与 CHEX 联读，可以看到仓位在价格与时间两个方向的变化。
+- [[combined-odv-reads|组合读法：趋势延续、吸附与波动放大]] — CHEX 常作为确认层的一部分，而不是独立的交易信号。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -150,6 +157,13 @@ When price nears hotspots found separately in OI, GEX, and CHEX views, record wh
 
 - CHEX is a modeled time-sensitivity reading, not a directional signal or observed hedge flow.
 - The closer to expiry, the more CHEX must be read by DTE window.
+
+## Related Concepts
+
+- [[charm-delta-time-decay|Charm: Delta Drift Through Calendar Time]] — CHEX is charm aggregated over real positioning.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Time-dimension exposure must be read separately by expiry window.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Reading GEX with CHEX shows how a book changes in both the price and time directions.
+- [[combined-odv-reads|Combined Reads: Trend Continuation, Pinning, And Volatility Expansion]] — CHEX is usually part of the confirmation layer rather than a standalone trading signal.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

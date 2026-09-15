@@ -4,7 +4,7 @@ title_en: "Black-Scholes-Merton Pricing Model"
 slug: "bsm-pricing-model"
 type: lesson
 level: Advanced
-order: 58
+order: 60
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "18 分钟"
@@ -101,6 +101,13 @@ BSM 与 Black-76 的基础闭式公式都针对欧式行权，并依赖连续价
 - 现货 BSM 与 Black-76 都帮助解释变量传导，但必须先匹配合约基准。
 - 理论敏感度不是 dealer 持仓方向；对冲流仍需要持仓归属与盘面证据。
 
+## 相关概念
+
+- [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 对数正态价格假设是推导的分布基础。
+- [[risk-neutral-vs-physical-probability|风险中性概率与现实概率：定价分布不是行情预测]] — 模型价格是风险中性测度下的期望。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 把市场价反解回模型参数就得到隐含波动率。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 常数波动率与连续对冲假设决定了模型的失效边界。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -177,6 +184,13 @@ Before analyzing ES- or NQ-related options, confirm whether the contract is pric
 
 - Spot BSM and Black-76 both explain variable transmission, but the contract basis must be matched first.
 - Theoretical sensitivity is not dealer position direction; hedge-flow interpretation still requires ownership and market evidence.
+
+## Related Concepts
+
+- [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — The lognormal price assumption is the distributional basis of the derivation.
+- [[risk-neutral-vs-physical-probability|Risk-Neutral Versus Physical Probability: A Pricing Distribution Is Not A Forecast]] — The model price is an expectation under the risk-neutral measure.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Inverting market prices back into the model parameter gives implied volatility.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — Constant volatility and continuous hedging assumptions set the model's failure boundary.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

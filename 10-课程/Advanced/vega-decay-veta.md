@@ -4,7 +4,7 @@ title_en: "Vega Decay / Veta: How Vega Changes With Time"
 slug: "vega-decay-veta"
 type: lesson
 level: Advanced
-order: 74
+order: 76
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "21 分钟"
@@ -124,6 +124,13 @@ Vega 告诉我们 IV 小幅变化时价格如何变化；Veta 告诉我们在其
 - 纯时间诊断与真实隔夜联合情景分开保存。
 - 本课不推荐任何日历结构、到期日或 Vega 方向。
 
+## 相关概念
+
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — Veta 度量 Vega 随剩余期限衰减的速度，而不是 Vega 本身。
+- [[time-value-and-theta|时间价值与 Theta]] — Veta 与 Theta 是同一时间轴上的两个不同敏感度。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — Vega 衰减速度随到期窗口急剧变化，因此窗口选择本身就是 Veta 决策。
+- [[calendar-diagonal-butterfly-condor|Calendar、Diagonal、Butterfly、Condor 与 Iron Condor]] — 跨期限结构的核心风险正是两条腿的 Veta 差异。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -222,6 +229,13 @@ Near expiry, vega and veta can be highly sensitive to step size while liquidity,
 - Do not assume vega always decays; calculate by moneyness, maturity, and event structure.
 - Store pure-time diagnostics separately from realistic joint overnight scenarios.
 - This lesson recommends no calendar structure, expiry, or vega direction.
+
+## Related Concepts
+
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — Veta measures how fast vega decays with remaining time, not vega itself.
+- [[time-value-and-theta|Time Value And Theta]] — Veta and theta are two different sensitivities along the same time axis.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Vega decay speed changes sharply with the expiry window, so choosing a window is a veta decision.
+- [[calendar-diagonal-butterfly-condor|Calendars, Diagonals, Butterflies, Condors, And Iron Condors]] — The core risk of a cross-expiry structure is precisely the veta difference between its legs.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

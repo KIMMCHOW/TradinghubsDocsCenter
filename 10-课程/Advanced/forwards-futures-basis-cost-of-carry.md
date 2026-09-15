@@ -4,7 +4,7 @@ title_en: "Forwards, Futures, Basis, And Cost Of Carry: From Spot To Equity-Inde
 slug: "forwards-futures-basis-cost-of-carry"
 type: lesson
 level: Advanced
-order: 54
+order: 56
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "25 分钟"
@@ -95,6 +95,13 @@ generated: 2026-09-15
 - 展期分析要分开旧合约收敛、新合约持有成本和成交摩擦。
 - 本课解释定价关系，不构成基差交易或套利建议。
 
+## 相关概念
+
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — 持有成本中的利率部分就是无风险贴现率。
+- [[option-value-moneyness-put-call-parity|期权价值、价内价外与 Put-Call Parity]] — 远期价是平价关系中把期权与现货连接起来的那一项。
+- [[oil-opec-energy-markets|原油、OPEC 与能源市场]] — 库存与便利收益让商品期限结构显著偏离简单持有成本。
+- [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — 基差交易的点值换算依赖合约乘数与最小跳动。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -164,6 +171,13 @@ Expiry convergence depends on the contract's final settlement definition and doe
 - When net basis jumps, decompose dividends, funding, timestamp, and supply-demand effects.
 - Roll analysis should separate old-contract convergence, new-contract carry, and execution friction.
 - This lesson explains pricing relations and is not a basis-trade or arbitrage recommendation.
+
+## Related Concepts
+
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — The rate component of cost of carry is the risk-free discount rate.
+- [[option-value-moneyness-put-call-parity|Option Value, Moneyness, And Put-Call Parity]] — The forward price is the term in parity that links options and spot.
+- [[oil-opec-energy-markets|Crude Oil, OPEC, And Energy Markets]] — Inventory and convenience yield push commodity term structure away from simple carry.
+- [[futures-contract-mechanics-tick-value|Futures Contract Mechanics: Tick Size, Tick Value, And Rolls]] — Basis trading's tick-value arithmetic depends on the contract multiplier and minimum tick.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

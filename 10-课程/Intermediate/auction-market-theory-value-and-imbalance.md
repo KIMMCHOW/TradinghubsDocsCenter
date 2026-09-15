@@ -4,7 +4,7 @@ title_en: "Auction Market Theory: Value, Balance, And Imbalance"
 slug: "auction-market-theory-value-and-imbalance"
 type: lesson
 level: Intermediate
-order: 25
+order: 27
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "18 分钟"
@@ -69,6 +69,13 @@ generated: 2026-09-15
 - 把超额尾部记录为失败试探，而不是反转保证。
 - 价值区变化只有在接受过程完成后才有统计意义。
 
+## 相关概念
+
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 拍卖结构判断需要以盘口与成交分布为输入。
+- [[volume-profile-value-area-hvn-lvn|成交量分布：价值区、HVN 与 LVN]] — 价值区与失衡区是拍卖理论的可视化读法。
+- [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 吸收是主动方失败的直接证据，用于验证失衡是否被消化。
+- [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 价格离开价值区时的扫荡与被困仓位是失衡的后续。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -112,6 +119,13 @@ The practical value of the framework is state description: balanced or imbalance
 - Confirm acceptance or rejection with subsequent business, not a single wick.
 - Record excess tails as failed probes, not reversal guarantees.
 - A change in value area only becomes meaningful after acceptance has completed.
+
+## Related Concepts
+
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Auction-structure judgements take the book and volume distribution as inputs.
+- [[volume-profile-value-area-hvn-lvn|Volume Profile: Value Area, HVN, And LVN]] — Value areas and imbalance zones are the visual reading of auction theory.
+- [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — Absorption is direct evidence that the aggressive side failed, validating whether imbalance was digested.
+- [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — Sweeps and trapped positions are what follows when price leaves the value area.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

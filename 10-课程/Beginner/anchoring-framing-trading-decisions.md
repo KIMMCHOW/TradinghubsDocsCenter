@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 预先承诺在压力出现前最有效，事后理由最容易被重新框架。
 - 本课提供决策卫生工具，不替代适当性、税务或心理健康建议。
 
+## 相关概念
+
+- [[sunk-cost-commitment-escalation|沉没成本与承诺升级]] — 参考点一旦被当作成本基准，就很容易演变为沉没成本式加仓。
+- [[efficient-market-hypothesis|有效市场假说（EMH）]] — 系统性偏差是行为金融对效率提出挑战的主要机制之一。
+- [[expectations-feedback-path-dependence|预期、反馈与路径依赖]] — 个体偏差聚合后可以形成自我强化的价格路径。
+- [[expected-utility-opportunity-cost|期望效用、机会成本与风险收益]] — 框架效应说明了主观价值与效用计算之间的差距。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Cost basis can affect taxes, margin, client mandates, or stop discipline, and ro
 - Portfolio-level presentation is often closer to economic risk than leg-level profit and loss.
 - Precommitment works best before stress; after the fact, reasons are easiest to reframe.
 - This lesson provides decision-hygiene tools and does not replace suitability, tax, or mental-health advice.
+
+## Related Concepts
+
+- [[sunk-cost-commitment-escalation|Sunk Costs And Escalation Of Commitment]] — Once a reference point becomes a cost benchmark, it easily turns into sunk-cost escalation.
+- [[efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — Systematic bias is one of the main mechanisms behind the behavioral challenge to efficiency.
+- [[expectations-feedback-path-dependence|Expectations, Feedback, And Path Dependence]] — Aggregated individual bias can produce a self-reinforcing price path.
+- [[expected-utility-opportunity-cost|Expected Utility, Opportunity Cost, And Risk-Reward]] — Framing effects show the gap between subjective value and a utility calculation.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Extended And Higher-Order Greeks Overview: Elasticity, Curvature, Dri
 slug: "higher-order-greeks"
 type: lesson
 level: Advanced
-order: 68
+order: 70
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "23 分钟"
@@ -111,6 +111,13 @@ Taylor 展开只在局部近似有效，多个风险因子大幅同时变化时�
 - 第三步：用完整重估验证局部展开，并记录残差随情景大小如何增长。
 - 高阶 Greeks 是风险诊断语言，不是单独的方向或波动率交易信号。
 
+## 相关概念
+
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — 高阶 Greeks 都是在 Gamma 之外继续做局部展开。
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — 所有高阶敏感度最终都回到 Delta 曲线的高阶变化。
+- [[vega-iv-sensitivity|Vega：IV 敏感度与波动率重定价]] — 对波动率继续求导就得到 Volga、Veta 等二阶敏感度。
+- [[options-pnl-attribution|期权 P&L 归因：从起止重估到 Greek 解释残差]] — 把损益按各阶 Greeks 拆解，才能识别残差来自哪里。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -196,6 +203,13 @@ A Taylor expansion is only locally valid. When several risk factors move materia
 - Step 2: Select only higher-order terms that explain the dominant current drift; avoid indicator stacking.
 - Step 3: Validate the local expansion with full revaluation and record how residual error grows with scenario size.
 - Higher-order Greeks are a risk-diagnostic language, not standalone directional or volatility signals.
+
+## Related Concepts
+
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Higher-order Greeks continue the local expansion beyond gamma.
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Every higher-order sensitivity ultimately returns to higher-order change in the delta curve.
+- [[vega-iv-sensitivity|Vega: IV Sensitivity And Volatility Repricing]] — Differentiating further with respect to volatility yields second-order sensitivities such as volga and veta.
+- [[options-pnl-attribution|Options P&L Attribution: From Endpoint Revaluation To Greek Explanations]] — Decomposing P&L across the Greek orders is how the source of the residual is identified.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

@@ -4,7 +4,7 @@ title_en: "Introduction To Greeks"
 slug: "greeks-introduction"
 type: lesson
 level: Intermediate
-order: 33
+order: 35
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "18 分钟"
@@ -74,6 +74,12 @@ Gamma 高的区域，价格接近 Strike 时，Delta 会随 Spot 变化更快。
 - Gamma 高的 Strike 附近，价格运动可能更敏感。
 - 这说明波动机制，不说明方向胜率。
 
+## 相关概念
+
+- [[options-contract-and-quote|期权基础：合约与报价]] — Greeks 解释报价字段背后的风险来源，而不是另一套报价语言。
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — Delta 是一阶方向敏感度，也是其余 Greeks 的起点。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Gamma 解释 Delta 为何随现货变化，是第二个必学敏感度。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -122,6 +128,12 @@ When an inventory is known to be long gamma and its hedger maintains delta neutr
 - Delta hedging links options positions to futures flow.
 - Around high-gamma strikes, price movement can become more sensitive.
 - This explains volatility mechanics, not directional win rate.
+
+## Related Concepts
+
+- [[options-contract-and-quote|Options Basics: Contracts And Quotes]] — The Greeks explain the risk behind quote fields rather than forming a separate quoting language.
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Delta is the first-order directional sensitivity and the starting point for the rest.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Gamma explains why delta moves with spot and is the second essential sensitivity.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

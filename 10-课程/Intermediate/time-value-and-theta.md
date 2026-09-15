@@ -4,7 +4,7 @@ title_en: "Time Value And Theta"
 slug: "time-value-and-theta"
 type: lesson
 level: Intermediate
-order: 36
+order: 38
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "13 分钟"
@@ -73,6 +73,13 @@ OTM 期权可能几乎全部都是时间价值。其他输入不变时，ATM 期
 - 短期限期权让 ES / NQ 对关键价位更敏感。
 - Theta 本身不是方向信号，但会改变仓位持有压力。
 
+## 相关概念
+
+- [[option-value-moneyness-put-call-parity|期权价值、价内价外与 Put-Call Parity]] — Theta 描述的是时间价值随日历时间衰减的速度。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Theta 与 Gamma 互为补偿关系，方向暴露的代价由此确定。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 剩余到期时间决定 Theta 的绝对速度与曲线形状。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 买入波动率的持有成本主要就是跨越事件窗口的 Theta。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -120,6 +127,13 @@ Near expiration, fast extrinsic decay changes pressure for buyers and sellers. I
 
 - Short-dated options can make ES / NQ more sensitive to key prices.
 - Theta itself is not a direction signal, but it changes holding pressure.
+
+## Related Concepts
+
+- [[option-value-moneyness-put-call-parity|Option Value, Moneyness, And Put-Call Parity]] — Theta describes how fast the time-value component decays with calendar time.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Theta and gamma compensate each other, which is what prices a directional exposure.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Time to expiry determines the absolute speed and shape of the theta curve.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — The holding cost of long volatility is mainly the theta paid across the event window.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

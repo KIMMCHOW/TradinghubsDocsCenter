@@ -4,7 +4,7 @@ title_en: "Liquidity Sweeps, Stop Runs, And Trapped Traders"
 slug: "liquidity-sweeps-stop-runs-trapped-traders"
 type: lesson
 level: Advanced
-order: 86
+order: 88
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "20 分钟"
@@ -69,6 +69,13 @@ generated: 2026-09-15
 - 在可能出现快速位移的结构中预先压缩仓位与止损距离。
 - 把无法验证的“猎杀意图”说法替换为可观察的流动性与成交记录。
 
+## 相关概念
+
+- [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 扫荡是吸收失败后的价格结果，而不是独立信号。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 扫荡深度取决于关键价位附近的真实承接量。
+- [[game-theory-strategic-interaction|博弈论与市场策略互动]] — 止损聚集是可被预期的对手行为，因而会被策略性利用。
+- [[expectations-feedback-path-dependence|预期、反馈与路径依赖]] — 被困仓位通过被迫平仓放大后续价格位移。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -112,6 +119,13 @@ Structures like this demand more from risk management than from forecasting. Dis
 - Use post-cross volume and acceptance as the evidence, not the cross itself.
 - Reduce size and stop distance in advance when fast displacement is possible.
 - Replace unverifiable claims about intent with observable liquidity and execution records.
+
+## Related Concepts
+
+- [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — A sweep is the price outcome of failed absorption rather than a standalone signal.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Sweep depth depends on the real absorbing quantity around the key level.
+- [[game-theory-strategic-interaction|Game Theory And Strategic Interaction In Markets]] — Clustered stops are predictable counterparty behaviour and are therefore used strategically.
+- [[expectations-feedback-path-dependence|Expectations, Feedback, And Path Dependence]] — Trapped positions amplify subsequent displacement through forced liquidation.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

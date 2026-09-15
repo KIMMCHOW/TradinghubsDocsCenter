@@ -4,7 +4,7 @@ title_en: "Options Order Flow: Delta, Gamma, And Convexity Weighting"
 slug: "options-order-flow-dex-gex-convexity"
 type: lesson
 level: Advanced
-order: 87
+order: 89
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "21 分钟"
@@ -104,6 +104,13 @@ Gamma 加权序列用同一构造但改用 Gamma 加权，衡量的是对凸性�
 - 把深度价内的 Delta 大额成交视为可能的结构交易或平仓。
 - 累计净成交与存量敞口分开记录，不可互相替代或相加。
 
+## 相关概念
+
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — 分类成交是加权之前的必要前提。
+- [[delta-exposure-dex|DEX：Delta Exposure 怎么看]] — 按 Delta 加权给出方向层读数。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 按 Gamma 加权给出对冲敏感度层读数。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — 凸性加权使同一笔成交在接近关键位时被重新评估。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -182,6 +189,13 @@ Classified flow also carries structural error: spreads and multi-leg structures 
 - Read one print through all three weightings so size is not mistaken for meaning.
 - Treat large deep in-the-money delta prints as possible structure or unwind trades.
 - Record cumulative net trade and standing exposure separately; they are neither substitutes nor additive.
+
+## Related Concepts
+
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — Classified flow is the necessary precondition for any weighting.
+- [[delta-exposure-dex|DEX: How To Read Delta Exposure]] — Weighting by delta yields the directional-layer reading.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — Weighting by gamma yields the hedging-sensitivity layer reading.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Convexity weighting makes the same print get revalued near a key level.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

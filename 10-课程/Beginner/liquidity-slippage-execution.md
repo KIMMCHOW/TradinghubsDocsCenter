@@ -111,6 +111,13 @@ Bid 表示当前可见买方愿意支付的最高价，Ask 表示当前可见卖
 - 第三步：按决策时基准归因成交偏差，避免只用事后 Mid 评价。
 - 执行质量分析用于理解成本与操作风险，不推荐任何订单类型、时机或规模。
 
+## 相关概念
+
+- [[market-orders-limit-orders-bid-ask|市价单、限价单与买卖报价]] — 订单类型选择是执行成本的第一决定因素。
+- [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 可成交深度决定大单的冲击成本。
+- [[price-discovery-market-clearing|价格发现与市场出清]] — 滑点是理论出清价与实际成交价之间的差额。
+- [[discrete-hedging-error-transaction-costs|离散对冲误差与交易成本：连续理论如何落到有限成交]] — 高频对冲把执行成本转化为可度量的对冲误差。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -196,6 +203,13 @@ After execution, retain each timestamp, quantity, price, and contemporaneous ben
 - Step 2: Map risk boundaries for package fills, partial fills, and legged execution.
 - Step 3: Attribute execution shortfall against a decision-time benchmark rather than an after-the-fact midpoint.
 - Execution-quality analysis explains cost and operating risk; it recommends no order type, timing, or size.
+
+## Related Concepts
+
+- [[market-orders-limit-orders-bid-ask|Market Orders, Limit Orders, And The Bid-Ask Spread]] — Order-type choice is the first determinant of execution cost.
+- [[order-book-depth-and-resting-liquidity|Order Book Depth And Resting Liquidity]] — Executable depth determines the impact cost of a large order.
+- [[price-discovery-market-clearing|Price Discovery And Market Clearing]] — Slippage is the gap between the theoretical clearing price and the actual fill.
+- [[discrete-hedging-error-transaction-costs|Discrete Hedging Error And Transaction Costs: Bringing Continuous Theory To Finite Trades]] — Frequent hedging turns execution cost into a measurable hedging error.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

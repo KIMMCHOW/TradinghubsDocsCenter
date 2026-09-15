@@ -4,7 +4,7 @@ title_en: "Aggregate Data: How To Read The Total Structure"
 slug: "aggregate-options-data"
 type: lesson
 level: Intermediate
-order: 46
+order: 48
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "12 分钟"
@@ -81,6 +81,13 @@ generated: 2026-09-15
 - Aggregate Data 不替代具体行权价分析。
 - 总量读法和 Greeks Profile 必须闭环。
 
+## 相关概念
+
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — 聚合视图是单节点敞口在更大范围内的汇总。
+- [[delta-exposure-dex|DEX：Delta Exposure 怎么看]] — 总量与方向必须一起看，否则会掩盖内部冲突。
+- [[options-volume-participation|Volume：期权参与强度怎么读]] — 聚合读数需要活动量作为可信度参考。
+- [[combined-odv-reads|组合读法：趋势延续、吸附与波动放大]] — 聚合数据是组合读法的第一层，而不是结论本身。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -136,6 +143,13 @@ When hotspot locations from several metrics overlap, observe whether futures rep
 
 - Aggregate Data does not replace strike-level analysis.
 - Aggregate reading must close the loop with Greeks Profile.
+
+## Related Concepts
+
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — The aggregate view is single-node exposure summarized over a wider scope.
+- [[delta-exposure-dex|DEX: How To Read Delta Exposure]] — Totals and direction must be read together or internal conflict is hidden.
+- [[options-volume-participation|Volume: How To Read Options Participation Strength]] — An aggregate reading needs activity level as a credibility reference.
+- [[combined-odv-reads|Combined Reads: Trend Continuation, Pinning, And Volatility Expansion]] — Aggregate data is the first layer of a combined read rather than the conclusion itself.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

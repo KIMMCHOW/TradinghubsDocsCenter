@@ -4,7 +4,7 @@ title_en: "VEX: How To Read Vanna Exposure"
 slug: "vanna-exposure-vex"
 type: lesson
 level: Advanced
-order: 78
+order: 80
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "14 分钟"
@@ -86,6 +86,13 @@ Vanna 衡量 Delta 对隐含波动率变化的敏感度，理论上必须先区�
 - VEX 应和 IV、Flow、GEX 一起看。
 - 事件日前后和 IV 快速变化时，优先检查 VEX 热点与实际价格反应是否重合。
 
+## 相关概念
+
+- [[vanna-cross-sensitivity|Vanna：Delta 与波动率的交叉敏感度]] — VEX 是 Vanna 在真实仓位上的聚合。
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — VEX 的规模取决于偏斜随现货移动的速度。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — VEX 与 GEX 描述同一仓位的不同敏感度方向。
+- [[combined-odv-reads|组合读法：趋势延续、吸附与波动放大]] — VEX 只有在与方向层和确认层一致时才有解读价值。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -146,6 +153,13 @@ When futures price is still holding but IV, flow, and VEX are already changing, 
 
 - Read VEX with IV, flow, and GEX.
 - Around events and rapid IV changes, prioritize checking whether VEX hotspots overlap actual price reaction.
+
+## Related Concepts
+
+- [[vanna-cross-sensitivity|Vanna: The Delta–Volatility Cross Sensitivity]] — VEX is vanna aggregated over real positioning.
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — The size of VEX depends on how fast skew moves with spot.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — VEX and GEX describe different sensitivity directions of the same book.
+- [[combined-odv-reads|Combined Reads: Trend Continuation, Pinning, And Volatility Expansion]] — VEX is only interpretable when it agrees with the direction and confirmation layers.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

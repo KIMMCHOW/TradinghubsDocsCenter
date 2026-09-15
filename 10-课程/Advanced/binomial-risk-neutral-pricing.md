@@ -4,7 +4,7 @@ title_en: "Binomial Trees And Risk-Neutral Pricing"
 slug: "binomial-risk-neutral-pricing"
 type: lesson
 level: Advanced
-order: 57
+order: 59
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "22 分钟"
@@ -125,6 +125,13 @@ generated: 2026-09-15
 - 第三步：做步数收敛、输入扰动和报价差异检查。
 - 模型用于组织假设与情景，不提供“理论价必然回归”的交易结论。
 
+## 相关概念
+
+- [[risk-neutral-vs-physical-probability|风险中性概率与现实概率：定价分布不是行情预测]] — 二叉树的每一步都在使用风险中性概率而非真实概率。
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — 步数增加时离散模型收敛到连续时间解。
+- [[exercise-assignment-settlement-pin-risk|行权、指派、结算与 Pin Risk]] — 美式提前行权价值只能在离散格点上逐点比较。
+- [[model-assumptions-and-model-risk|模型假设与模型风险：从公式正确到决策可靠]] — 波动率与步长的选择决定离散化误差的大小。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -224,6 +231,13 @@ Real markets may feature skew, jumps, stochastic volatility, transaction costs, 
 - Step 2: Work backward from terminal cash flows and compare exercise with continuation at American nodes.
 - Step 3: Check step convergence, input perturbations, and differences from market quotes.
 - The model organizes assumptions and scenarios; it does not imply that market price must converge to a theoretical value.
+
+## Related Concepts
+
+- [[risk-neutral-vs-physical-probability|Risk-Neutral Versus Physical Probability: A Pricing Distribution Is Not A Forecast]] — Each step of the tree uses a risk-neutral probability rather than the real-world one.
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — As steps increase, the discrete model converges to the continuous-time solution.
+- [[exercise-assignment-settlement-pin-risk|Exercise, Assignment, Settlement, And Pin Risk]] — American early-exercise value can only be compared node by node on a discrete lattice.
+- [[model-assumptions-and-model-risk|Model Assumptions And Model Risk: From Correct Formula To Reliable Decision]] — The choice of volatility and step size sets the size of the discretization error.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

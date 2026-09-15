@@ -109,6 +109,13 @@ OPEC 与 OPEC+ 通过成员目标和协调影响部分供应，但实际产量�
 - 油价可通过通胀、利润、贸易余额和政策预期传导至其他资产。
 - 本课不提供原油、成品油或能源股交易建议。
 
+## 相关概念
+
+- [[business-cycle-labor-indicators|商业周期与劳动力市场指标]] — 需求来自周期，供给决策来自产油国，两者共同决定价格。
+- [[forwards-futures-basis-cost-of-carry|远期、期货、基差与持有成本：从现货到股指公平价值]] — 库存与便利收益使能源期货的期限结构显著偏离简单持有成本。
+- [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 能源贸易是经常账户与汇率的重要组成，油价冲击会改变跨境资金流。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 供应会议与地缘事件是典型的跳跃风险来源，需要用事件波动率框架处理。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -192,6 +199,13 @@ Global inventories are not completely observable in real time; shipping, floatin
 - A headline shock without flow, inventory, or curve confirmation has less certain persistence.
 - Oil can transmit to other assets through inflation, profits, trade balances, and policy expectations.
 - This lesson provides no trading advice on crude, products, or energy equities.
+
+## Related Concepts
+
+- [[business-cycle-labor-indicators|Business Cycles And Labor-Market Indicators]] — Demand comes from the cycle and supply decisions from producers; together they set price.
+- [[forwards-futures-basis-cost-of-carry|Forwards, Futures, Basis, And Cost Of Carry: From Spot To Equity-Index Fair Value]] — Inventory and convenience yield push energy futures term structure well away from simple cost of carry.
+- [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — Energy trade is a major component of the current account, so an oil shock moves cross-border flows.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — Supply meetings and geopolitical events are canonical jump-risk sources handled with an event-volatility frame.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

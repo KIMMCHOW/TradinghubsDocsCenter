@@ -4,7 +4,7 @@ title_en: "Order Flow, Footprint, Delta, And Cumulative Delta"
 slug: "order-flow-footprint-delta-cvd"
 type: lesson
 level: Intermediate
-order: 26
+order: 28
 track: order-flow-and-microstructure
 track_label: "订单流与市场微观结构"
 reading_time: "19 分钟"
@@ -83,6 +83,13 @@ Bar Delta 通常定义为买方主动成交量减卖方主动成交量；Session
 - 同向 Delta 配合价格停滞时，优先考虑吸收而不是继续加仓。
 - 任何单一 Bar 的 Delta 都不足以支撑结论，需要连续性与上下文。
 
+## 相关概念
+
+- [[market-orders-limit-orders-bid-ask|市价单、限价单与买卖报价]] — Delta 依赖主动方向的判定口径。
+- [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — Delta 扩张但价格不移动就是吸收的典型形态。
+- [[volume-profile-value-area-hvn-lvn|成交量分布：价值区、HVN 与 LVN]] — 成交分布回答活动集中在哪些价格，而非仅方向净额。
+- [[market-efficiency-information-signaling|市场效率、信息不对称与信号]] — 订单流是比历史价格更细的信息集，需要重新评估其可交易性。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -140,6 +147,13 @@ Absorption describes a passive side that keeps taking the aggressive flow and pr
 - Record delta divergence as an unexplained observation, then look for absorption or withdrawn liquidity.
 - When delta and a stalled price coexist, consider absorption before adding risk.
 - Delta from a single bar cannot support a conclusion; continuity and context are required.
+
+## Related Concepts
+
+- [[market-orders-limit-orders-bid-ask|Market Orders, Limit Orders, And The Bid-Ask Spread]] — Delta depends on the convention used to classify aggressive direction.
+- [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — Delta expanding while price does not move is the classic absorption shape.
+- [[volume-profile-value-area-hvn-lvn|Volume Profile: Value Area, HVN, And LVN]] — Volume distribution answers where activity concentrated, not only its net direction.
+- [[market-efficiency-information-signaling|Market Efficiency, Information Asymmetry, And Signals]] — Order flow is a finer information set than historical price and needs its own tradability assessment.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

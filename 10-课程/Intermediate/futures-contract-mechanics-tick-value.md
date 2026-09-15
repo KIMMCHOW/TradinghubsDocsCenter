@@ -4,7 +4,7 @@ title_en: "Futures Contract Mechanics: Tick Size, Tick Value, And Rolls"
 slug: "futures-contract-mechanics-tick-value"
 type: lesson
 level: Intermediate
-order: 24
+order: 26
 track: futures-and-options-linkage
 track_label: "期货与期权衔接"
 reading_time: "17 分钟"
@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 用每点金额比而不是张数比来推算对冲手数。
 - 把保证金要求视为风险约束，而不是可承受亏损的替代指标。
 
+## 相关概念
+
+- [[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]] — 点值换算是把期权 Delta 换算为等值手数的前提。
+- [[forwards-futures-basis-cost-of-carry|远期、期货、基差与持有成本：从现货到股指公平价值]] — 期货价格与现货的差额由持有成本与基差解释。
+- [[exercise-assignment-settlement-pin-risk|行权、指派、结算与 Pin Risk]] — 合约机制决定到期结算与点值风险如何落到账户上。
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 同一美元敞口需要通过点值换算才能与期权 Greeks 相加。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ Futures liquidity makes large trades possible, which also means one large print 
 - Confirm the expiry behind the data and avoid roll-induced breaks.
 - Derive hedge lots from the per-point amount ratio, not the contract count ratio.
 - Treat margin as a risk constraint, not a substitute for acceptable loss.
+
+## Related Concepts
+
+- [[synthetic-futures-and-delta-equivalent-sizing|Expressing Futures Exposure With Options: Synthetics And Equivalent Sizing]] — Tick-value arithmetic is the precondition for converting option delta into an equivalent contract size.
+- [[forwards-futures-basis-cost-of-carry|Forwards, Futures, Basis, And Cost Of Carry: From Spot To Equity-Index Fair Value]] — The gap between futures and spot is explained by cost of carry and basis.
+- [[exercise-assignment-settlement-pin-risk|Exercise, Assignment, Settlement, And Pin Risk]] — Contract mechanics determine how expiry settlement and tick risk land in the account.
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — A dollar exposure must be converted through tick value before it can be added to option Greeks.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

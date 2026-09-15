@@ -4,7 +4,7 @@ title_en: "Skew / Term Structure"
 slug: "skew-term-structure"
 type: lesson
 level: Advanced
-order: 61
+order: 63
 track: structures-pricing-and-volatility
 track_label: "结构、定价与波动率"
 reading_time: "15 分钟"
@@ -75,6 +75,13 @@ Put Skew 变陡通常意味着市场愿意为下跌保护支付更高溢价。Ca
 - Skew 是风险需求的形状，不是方向指令。
 - 期限结构帮助区分短期事件和长期风险溢价。
 
+## 相关概念
+
+- [[implied-volatility-surface|隐含波动率 IV 与波动率曲面]] — 偏斜与期限结构是同一曲面的两条切面。
+- [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 偏斜定价反映市场对左尾保护的非对称需求。
+- [[vanna-cross-sensitivity|Vanna：Delta 与波动率的交叉敏感度]] — 偏斜随现货变化而移动，这正是 Vanna 描述的现象。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 事件会把期限结构扭成局部高点，事后又回落。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -125,6 +132,13 @@ Lifted short-dated IV can mean the market is pricing a near-term event; steeper 
 
 - Skew is the shape of risk demand, not a direction instruction.
 - Term structure helps separate short-term event premium from longer-term risk premium.
+
+## Related Concepts
+
+- [[implied-volatility-surface|Implied Volatility And Volatility Surface]] — Skew and term structure are two slices through the same surface.
+- [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — Skew pricing reflects the market's asymmetric demand for left-tail protection.
+- [[vanna-cross-sensitivity|Vanna: The Delta–Volatility Cross Sensitivity]] — Skew moves with spot, which is exactly the phenomenon vanna describes.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — An event twists the term structure into a local peak and then unwinds it.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

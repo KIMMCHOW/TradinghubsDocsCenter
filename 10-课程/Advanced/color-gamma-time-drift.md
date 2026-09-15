@@ -4,7 +4,7 @@ title_en: "Color: Gamma Drift Through Time"
 slug: "color-gamma-time-drift"
 type: lesson
 level: Advanced
-order: 76
+order: 78
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "21 分钟"
@@ -124,6 +124,13 @@ Color 不包含隔夜跳空、曲面滚动规则、成交、指派或结算不�
 - 局部桥接只用于解释，小范围外使用完整重估。
 - 本课不把 Color 解释为价格磁吸或对冲流信号，也不构成交易建议。
 
+## 相关概念
+
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Color 是 Gamma 随日历时间的变化率。
+- [[charm-delta-time-decay|Charm：Delta 随日历时间的漂移]] — Charm 描述 Delta 的时间漂移，Color 描述 Gamma 的时间漂移。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 接近到期时 Gamma 的时间变化最快，Color 因此最显著。
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — Color 决定明天需要重新对冲的规模，而不只是今天的 Gamma。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -222,6 +229,13 @@ Color excludes overnight gaps, surface-roll rules, trades, assignment, and settl
 - Near expiry, check stability across multiple ε values and inspect the full gamma curve.
 - Use the local bridge for explanation only; fully reprice outside a small neighborhood.
 - This lesson does not interpret color as price magnetism or a hedge-flow signal and is not trading advice.
+
+## Related Concepts
+
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Color is the rate at which gamma changes with calendar time.
+- [[charm-delta-time-decay|Charm: Delta Drift Through Calendar Time]] — Charm tracks delta's time drift, and color tracks gamma's.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Gamma changes fastest near expiry, which is where color is most visible.
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — Color determines tomorrow's required rehedge size, not only today's gamma.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

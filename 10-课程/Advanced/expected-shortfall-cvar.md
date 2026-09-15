@@ -4,7 +4,7 @@ title_en: "CVaR / Expected Shortfall: Average Loss Beyond A Quantile"
 slug: "expected-shortfall-cvar"
 type: lesson
 level: Advanced
-order: 52
+order: 54
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "22 分钟"
@@ -90,6 +90,13 @@ Expected Shortfall 是选定分布尾部的平均值，而不是最大可能损�
 - 将最大单一情景损失与 ES 并列，避免把平均尾部误当上限。
 - 该度量用于风险教育与监控，不保证损失被限制在任何数值内。
 
+## 相关概念
+
+- [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 尾部厚度直接决定 VaR 之外的期望损失。
+- [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 正态假设会系统性低估尾部风险的度量值。
+- [[straddle-strangle-event-risk|Straddle、Strangle 与事件波动]] — 事件结构的尾部损失形状与卖出结构完全不同。
+- [[variance-swaps-and-vix|方差互换与 VIX：从期权横截面到风险中性方差]] — 卖出方差在极端行情下的损失远超线性估计。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -154,6 +161,13 @@ Horizon scaling cannot mechanically turn one-day ES into multi-day ES with a squ
 - When tail observations are scarce, display their count and give more weight to stress scenarios.
 - Show the worst individual scenario beside ES so a tail average is not mistaken for a cap.
 - The measure supports risk education and monitoring and does not guarantee any loss ceiling.
+
+## Related Concepts
+
+- [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — Tail thickness directly determines expected loss beyond VaR.
+- [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — A normal assumption systematically understates tail-risk measures.
+- [[straddle-strangle-event-risk|Straddles, Strangles, And Event Volatility]] — An event structure's tail-loss shape differs completely from a short-premium structure.
+- [[variance-swaps-and-vix|Variance Swaps And VIX: From Option Cross-Sections To Risk-Neutral Variance]] — Short variance loses far more than a linear estimate in extreme markets.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

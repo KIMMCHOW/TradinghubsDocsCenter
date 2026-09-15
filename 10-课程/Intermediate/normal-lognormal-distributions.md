@@ -114,6 +114,13 @@ generated: 2026-09-15
 - 经验分位与压力情景应和参数模型并行使用。
 - 本课不承诺任何资产服从特定分布。
 
+## 相关概念
+
+- [[skewness-kurtosis-fat-tails|偏度、峰度与肥尾风险]] — 正态假设低估尾部，偏度与峰度刻画了这一点。
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — 对数正态价格假设是 Black–Scholes 推导的分布基础。
+- [[binomial-risk-neutral-pricing|二叉树与风险中性定价]] — 离散二叉树在极限下收敛到对数正态连续模型。
+- [[random-walk-hypothesis|随机游走假说]] — 随机游走的分布假设是否成立，直接决定收益建模的合理性。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -202,6 +209,13 @@ The same asset can exhibit different distributions across policy, liquidity, and
 - Log space helps with compounding but does not remove jumps or regime shifts.
 - Empirical quantiles and stress scenarios should accompany parametric models.
 - This lesson does not claim any asset follows a particular distribution.
+
+## Related Concepts
+
+- [[skewness-kurtosis-fat-tails|Skewness, Kurtosis, And Fat-Tail Risk]] — A normal assumption understates the tails, which skewness and kurtosis quantify.
+- [[bsm-pricing-model|Black-Scholes-Merton Pricing Model]] — The lognormal price assumption is the distributional basis of the Black–Scholes derivation.
+- [[binomial-risk-neutral-pricing|Binomial Trees And Risk-Neutral Pricing]] — A discrete binomial lattice converges to the lognormal continuous model in the limit.
+- [[random-walk-hypothesis|Random Walk Hypothesis]] — Whether the random walk's distributional assumption holds determines how defensible the return model is.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

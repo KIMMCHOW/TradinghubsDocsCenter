@@ -4,7 +4,7 @@ title_en: "Foreign Rho / Phi: Foreign-Rate And Carry Sensitivity"
 slug: "phi-foreign-rate-sensitivity"
 type: lesson
 level: Advanced
-order: 70
+order: 72
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "22 分钟"
@@ -124,6 +124,13 @@ Phi 的解析值依赖平滑曲线、模型形式和固定其他变量的假设�
 - 单变量 Foreign Rho 用于诊断，联合宏观情景用于评估真实损益。
 - 本课解释计量方法，不预测利率或货币方向，也不构成交易建议。
 
+## 相关概念
+
+- [[rho-rate-sensitivity|Rho：利率敏感度为什么通常排在最后]] — Phi 是引入第二种货币后出现的第二种利率敏感度。
+- [[risk-free-rate-discounting|无风险利率、贴现与时间价值]] — 两个利率同时进入贴现，才会产生 Phi 项。
+- [[trade-capital-flows-fx|贸易、资本流动与外汇]] — 利差与汇率预期的变化会同时改变价格与 Phi 敞口。
+- [[portfolio-greeks-node-aggregation|组合 Greeks 与节点聚合：先统一单位，再讨论净敞口]] — 跨币种组合必须把本币与外币利率敞口分别汇总。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -222,6 +229,13 @@ If a data source does not define its phi field, mark the value as convention unc
 - Store ρd, ρf, and dividend-yield sensitivity separately rather than hiding all carry risk in one rate Greek.
 - Use one-variable foreign rho for diagnostics and joint macro scenarios for realistic P&L.
 - This lesson explains measurement; it forecasts neither rates nor currencies and is not trading advice.
+
+## Related Concepts
+
+- [[rho-rate-sensitivity|Rho: Why Rate Sensitivity Usually Comes Last]] — Phi is the second rate sensitivity that appears once a second currency is involved.
+- [[risk-free-rate-discounting|Risk-Free Rates, Discounting, And Time Value]] — Phi only appears because two rates enter the discounting together.
+- [[trade-capital-flows-fx|Trade, Capital Flows, And Foreign Exchange]] — Changes in rate spreads and currency expectations move both price and phi exposure.
+- [[portfolio-greeks-node-aggregation|Portfolio Greeks And Node Aggregation: Align Units Before Net Exposure]] — A cross-currency book must aggregate domestic and foreign rate exposure separately.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

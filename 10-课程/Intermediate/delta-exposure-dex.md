@@ -4,7 +4,7 @@ title_en: "DEX: How To Read Delta Exposure"
 slug: "delta-exposure-dex"
 type: lesson
 level: Intermediate
-order: 45
+order: 47
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "14 分钟"
@@ -87,6 +87,13 @@ Delta 衡量参考价格小幅变化时的期权价值敏感度。一般概念�
 - DEX 更适合回答“同一视图里哪里更突出”，不是“现在能不能进场”。
 - 和 GEX、OI、Flow、IV 一起看，才能判断暴露是否可能影响期货盘面。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — DEX 的输入是逐节点的 Delta，因此必须先理解 Delta 曲线。
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — 方向性存量敞口由 OI 与 Delta 相乘聚合而成。
+- [[gamma-exposure-gex|GEX / vGEX：Gamma Exposure 怎么看]] — DEX 给出方向，GEX 给出同一仓位的对冲敏感度，两者必须联读。
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — 新增方向性成交会改变 DEX 的节点分布。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -148,6 +155,13 @@ First confirm symbol, DEX, DTE window, and timestamp, then use Greeks Profile to
 - DEX does not mean futures must move one way.
 - DEX is better for answering what is prominent within one view, not whether to enter now.
 - Read it with GEX, OI, flow, and IV to judge whether exposure may affect futures behavior.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — DEX takes per-node delta as its input, so the delta curve must be understood first.
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — A directional standing exposure aggregates OI multiplied by delta.
+- [[gamma-exposure-gex|GEX / vGEX: How To Read Gamma Exposure]] — DEX gives direction and GEX gives the hedging sensitivity of the same book; they must be read together.
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — New directional trades change the node distribution of DEX.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

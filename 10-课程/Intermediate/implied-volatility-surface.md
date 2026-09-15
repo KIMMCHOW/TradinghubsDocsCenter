@@ -4,7 +4,7 @@ title_en: "Implied Volatility And Volatility Surface"
 slug: "implied-volatility-surface"
 type: lesson
 level: Intermediate
-order: 40
+order: 42
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "17 分钟"
@@ -67,6 +67,13 @@ Expected Move 可以帮助理解市场认为 ES / NQ 在某个期限内可能波
 - IV 上升或下降会改变 Dealer 的风险管理输入。
 - Skew 变陡可能说明保护需求增强。
 
+## 相关概念
+
+- [[skew-term-structure|Skew / Term Structure]] — 偏斜与期限结构共同构成曲面的两个方向。
+- [[normal-lognormal-distributions|正态、对数正态与收益分布]] — 曲面偏斜说明隐含分布比对数正态有更厚的尾部。
+- [[vanna-cross-sensitivity|Vanna：Delta 与波动率的交叉敏感度]] — 曲面随现货移动，这个变化率就是 Vanna。
+- [[charm-delta-time-decay|Charm：Delta 随日历时间的漂移]] — 随着时间推移，曲面在期限方向的滚动由 Charm 描述。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -108,6 +115,13 @@ Expected move helps read how much the market is pricing ES / NQ to move over a h
 
 - Rising or falling IV changes dealer risk-management inputs.
 - Steeper skew can indicate stronger protection demand.
+
+## Related Concepts
+
+- [[skew-term-structure|Skew / Term Structure]] — Skew and term structure together form the surface's two axes.
+- [[normal-lognormal-distributions|Normal, Lognormal, And Return Distributions]] — Surface skew shows the implied distribution has fatter tails than the lognormal.
+- [[vanna-cross-sensitivity|Vanna: The Delta–Volatility Cross Sensitivity]] — The surface shifts with spot, and that rate of change is vanna.
+- [[charm-delta-time-decay|Charm: Delta Drift Through Calendar Time]] — As time passes, the surface's roll along the expiry axis is described by charm.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

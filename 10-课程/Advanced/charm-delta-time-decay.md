@@ -4,7 +4,7 @@ title_en: "Charm: Delta Drift Through Calendar Time"
 slug: "charm-delta-time-decay"
 type: lesson
 level: Advanced
-order: 72
+order: 74
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "22 分钟"
@@ -124,6 +124,13 @@ CHEX 必须继续按现有 ODV 数据契约解释。开放兴趣量没有买卖�
 - CHEX 保持产品字段定义，禁止使用通用 OI × Charm 公式替代。
 - 本课不预测对冲流、收盘路径或到期结果，也不构成交易建议。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — Charm 描述 Delta 随日历时间变化，是第二个交叉敏感度。
+- [[time-value-and-theta|时间价值与 Theta]] — Delta 的时间漂移与 Theta 衰减来自同一条时间轴。
+- [[dte-window-selection|DTE 窗口：0DTE、1DTE+ 与 90D Window 怎么选]] — 接近到期时 Charm 明显放大，必须按到期窗口分开看。
+- [[charm-exposure-chex|CHEX：Charm Exposure 怎么看]] — 把 Charm 与持仓结合就得到敞口指标 CHEX。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -222,6 +229,13 @@ CHEX must continue to follow the existing ODV data contract. Open interest has n
 - Aggregate only owned positions with known signs; do not assume market-wide inventory direction.
 - Preserve the product-field definition of CHEX; never replace it with generic OI × charm.
 - This lesson predicts neither hedge flow, closing path, nor expiry outcome and is not trading advice.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — Charm describes how delta changes with calendar time, the second cross sensitivity.
+- [[time-value-and-theta|Time Value And Theta]] — Delta's time drift and theta decay come from the same time axis.
+- [[dte-window-selection|DTE Windows: How To Choose 0DTE, 1DTE+, And 90D Window]] — Charm grows sharply near expiry, so it must be read by expiry window.
+- [[charm-exposure-chex|CHEX: How To Read Charm Exposure]] — Combining charm with positioning produces the exposure metric CHEX.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

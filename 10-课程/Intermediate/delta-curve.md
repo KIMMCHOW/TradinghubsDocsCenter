@@ -4,7 +4,7 @@ title_en: "Delta Curve: Deriving Directional Sensitivity From A Buy Call"
 slug: "delta-curve"
 type: lesson
 level: Intermediate
-order: 34
+order: 36
 track: greeks-and-sensitivities
 track_label: "Greeks 与敏感度"
 reading_time: "18 分钟"
@@ -92,6 +92,12 @@ generated: 2026-09-15
 - 大量仓位的 Delta 变化会传导到 Dealer 的期货对冲需求。
 - 先理解局部斜率，再讨论中性、对冲或盘中流动性。
 
+## 相关概念
+
+- [[greeks-introduction|Greeks 入门]] — 把 Delta 抽出来单独看，是理解其余敏感度的前提。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Delta 曲线的斜率就是 Gamma，凸性由此产生。
+- [[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]] — Delta 是把期权仓位换算成期货等值手数的桥梁。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -158,6 +164,12 @@ The lab first shows buy-call pre-expiry value, intrinsic value, and time value, 
 - Delta describes directional exposure, not direction prediction.
 - Delta changes across large positioning can transmit into dealer futures hedging demand.
 - Understand local slope before discussing neutrality, hedging, or intraday liquidity.
+
+## Related Concepts
+
+- [[greeks-introduction|Introduction To Greeks]] — Isolating delta is the precondition for understanding the other sensitivities.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — The slope of the delta curve is gamma, which is where convexity comes from.
+- [[synthetic-futures-and-delta-equivalent-sizing|Expressing Futures Exposure With Options: Synthetics And Equivalent Sizing]] — Delta is the bridge from an option position to a futures-equivalent size.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

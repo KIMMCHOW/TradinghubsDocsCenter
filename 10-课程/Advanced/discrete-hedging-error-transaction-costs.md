@@ -4,7 +4,7 @@ title_en: "Discrete Hedging Error And Transaction Costs: Bringing Continuous The
 slug: "discrete-hedging-error-transaction-costs"
 type: lesson
 level: Advanced
-order: 67
+order: 69
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "25 分钟"
@@ -98,6 +98,13 @@ generated: 2026-09-15
 - 跳跃与流动性压力必须用不可即时成交的情景复核。
 - 离散对冲降低某些风险，不消除损失或保证复制成功。
 
+## 相关概念
+
+- [[dynamic-delta-hedging|动态 Delta 对冲与路径风险]] — 离散化误差是动态对冲频率的直接结果。
+- [[liquidity-slippage-execution|流动性、滑点与期权执行]] — 每次再平衡都要支付价差与冲击成本。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Gamma 越大，同一时间间隔内的对冲误差越大。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 成本与误差叠加后放大了尾部风险。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ The best backtested frequency may be an artifact of a particular sample, cost es
 - When error grows, separate gamma path, volatility mismatch, latency, and fill problems.
 - Test jumps and liquidity stress with scenarios where immediate execution is unavailable.
 - Discrete hedging reduces selected risks and does not eliminate loss or guarantee replication.
+
+## Related Concepts
+
+- [[dynamic-delta-hedging|Dynamic Delta Hedging And Path Risk]] — Discretization error is the direct result of the dynamic hedging frequency.
+- [[liquidity-slippage-execution|Liquidity, Slippage, And Option Execution]] — Every rebalance pays spread and impact cost.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — The larger gamma is, the larger the hedging error within the same time interval.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Cost and error compound into a larger tail risk.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

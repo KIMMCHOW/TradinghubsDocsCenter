@@ -4,7 +4,7 @@ title_en: "Flow: How To Read Classified Options Trading"
 slug: "options-flow-direction"
 type: lesson
 level: Intermediate
-order: 43
+order: 45
 track: dealer-positioning-and-exposure
 track_label: "做市商定位与期权敞口"
 reading_time: "12 分钟"
@@ -80,6 +80,13 @@ OI 快照告诉你最近哪里有未平仓合约，绝对 GEX 告诉你哪里 Ga
 - Flow 要和 Volume 一起看，只有方向没有参与度是不够的。
 - Flow 是日内信息，不应替代中期仓位结构。
 
+## 相关概念
+
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — OI 变化决定成交是开仓还是平仓，因此决定方向判读。
+- [[options-volume-participation|Volume：期权参与强度怎么读]] — 成交量给出活动规模，方向给出活动归属。
+- [[market-maker-flow|做市商对冲：Delta 中性与 Gamma 再平衡]] — 买卖分类只有在对手方关系明确时才有意义。
+- [[options-order-flow-dex-gex-convexity|期权订单流：Delta、Gamma 与凸性加权]] — 分类成交再按 Delta、Gamma 与凸性加权，才形成敞口读法。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -134,6 +141,13 @@ The OI snapshot shows where contracts were recently open, magnitude GEX shows wh
 
 - Read flow with volume; direction without participation is not enough.
 - Flow is intraday information and should not replace medium-term positioning structure.
+
+## Related Concepts
+
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — The change in OI decides whether a trade opened or closed, which decides the direction read.
+- [[options-volume-participation|Volume: How To Read Options Participation Strength]] — Volume gives the size of the activity and direction gives its attribution.
+- [[market-maker-flow|Market-Maker Hedging: Delta Neutrality And Gamma Rebalancing]] — Buy/sell classification is only meaningful once the counterparty relationship is clear.
+- [[options-order-flow-dex-gex-convexity|Options Order Flow: Delta, Gamma, And Convexity Weighting]] — Classified flow becomes an exposure read only after weighting by delta, gamma, and convexity.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

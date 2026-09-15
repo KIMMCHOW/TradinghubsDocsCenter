@@ -4,7 +4,7 @@ title_en: "Calmar Ratio And Maximum Drawdown: Returning Growth To Its Path"
 slug: "calmar-ratio-maximum-drawdown"
 type: lesson
 level: Advanced
-order: 51
+order: 53
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "21 分钟"
@@ -95,6 +95,13 @@ Calmar 分母由单个极值决定，统计不稳定且容易被窗口选择优�
 - 比较策略时统一窗口、频率、净值口径和现金流处理。
 - 该比率描述历史路径，不设定未来最大损失。
 
+## 相关概念
+
+- [[sharpe-ratio|Sharpe Ratio：单位总波动的超额收益]] — Calmar 用最大回撤替代波动率作为风险尺度。
+- [[sunk-cost-commitment-escalation|沉没成本与承诺升级]] — 承诺升级会把可控亏损放大为大幅回撤。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 最大回撤是路径结果，尾部指标是分布结果，两者不能互相替代。
+- [[multi-metric-risk-dashboard|多指标风险面板：把收益、尾部、路径、敏感度与流动性对齐]] — 回撤必须与恢复时间一起看才有意义。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -164,6 +171,13 @@ The Calmar denominator is a single extreme, making it statistically unstable and
 - For an unrecovered drawdown, show days underwater and current distance from the high.
 - Align window, frequency, equity convention, and cash-flow treatment across strategies.
 - The ratio describes a historical path and does not set a future maximum loss.
+
+## Related Concepts
+
+- [[sharpe-ratio|Sharpe Ratio: Excess Return Per Unit Of Total Volatility]] — Calmar substitutes maximum drawdown for volatility as the risk scale.
+- [[sunk-cost-commitment-escalation|Sunk Costs And Escalation Of Commitment]] — Escalation of commitment turns a manageable loss into a large drawdown.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Maximum drawdown is a path outcome while tail metrics are distributional; neither replaces the other.
+- [[multi-metric-risk-dashboard|Multi-Metric Risk Dashboard: Aligning Return, Tail, Path, Sensitivity, And Liquidity]] — Drawdown is only meaningful when read with recovery time.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

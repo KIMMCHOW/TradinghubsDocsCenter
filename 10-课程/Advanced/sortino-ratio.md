@@ -4,7 +4,7 @@ title_en: "Sortino Ratio: Counting Only Deviation Below A Target"
 slug: "sortino-ratio"
 type: lesson
 level: Advanced
-order: 50
+order: 52
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "19 分钟"
@@ -89,6 +89,13 @@ Sortino 仍然依赖历史观测，并可能被平滑估值、短样本和极少
 - 将短缺深度和频率拆开显示，避免一个比率掩盖两种风险。
 - 本指标不预测收益，也不构成增加风险敞口的依据。
 
+## 相关概念
+
+- [[sharpe-ratio|Sharpe Ratio：单位总波动的超额收益]] — Sortino 替换了分母，但读数含义仍与 Sharpe 对照。
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall：越过分位点后的平均损失]] — 只关注下行偏离，仍然没有描述尾部有多厚。
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio 与最大回撤：把复合增长放回路径中]] — 两个指标都以回撤相关量作为风险度量。
+- [[multi-metric-risk-dashboard|多指标风险面板：把收益、尾部、路径、敏感度与流动性对齐]] — 单一下行指标不足，需要与其他维度并列呈现。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -152,6 +159,13 @@ If a strategy has almost no historical shortfalls, a tiny denominator does not i
 - Align MAR and downside-deviation denominator conventions before comparing strategies.
 - Display shortfall depth and frequency separately so one ratio cannot hide two risks.
 - The metric does not forecast returns or justify increasing risk exposure.
+
+## Related Concepts
+
+- [[sharpe-ratio|Sharpe Ratio: Excess Return Per Unit Of Total Volatility]] — Sortino replaces the denominator while the reading is still compared with Sharpe.
+- [[expected-shortfall-cvar|CVaR / Expected Shortfall: Average Loss Beyond A Quantile]] — Focusing only on downside deviation still says nothing about how fat the tail is.
+- [[calmar-ratio-maximum-drawdown|Calmar Ratio And Maximum Drawdown: Returning Growth To Its Path]] — Both metrics use a drawdown-related quantity as the risk measure.
+- [[multi-metric-risk-dashboard|Multi-Metric Risk Dashboard: Aligning Return, Tail, Path, Sensitivity, And Liquidity]] — A single downside metric is insufficient and must sit beside other dimensions.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

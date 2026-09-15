@@ -98,6 +98,13 @@ Intrinsic Value 来自当前 Spot 与 Strike 的关系；Extrinsic Value 则包�
 - Bid / Ask 与 Volume 共同帮助判断某个价位是否真的有交易活跃度。
 - 报价是基础语言，不是开仓建议。
 
+## 相关概念
+
+- [[option-value-moneyness-put-call-parity|期权价值、价内价外与 Put-Call Parity]] — 报价字段只是起点，价值拆分与看涨看跌平价关系才是定价语言。
+- [[single-leg-payoff|单腿盈亏结构]] — 到期盈亏把报价字段转化为可比较的风险形状。
+- [[greeks-introduction|Greeks 入门]] — Greeks 解释报价为何随价格、时间与波动率变化。
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — OI 描述存量仓位，是报价之外的仓位语言。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -170,6 +177,13 @@ A quote tells you rights, obligations, price, spread, and multiplier, but it doe
 - Confirm contract and quote fields before discussing positioning and hedging pressure.
 - Bid / ask and volume together help judge whether the level is actually active.
 - Quote language is foundation, not an entry recommendation.
+
+## Related Concepts
+
+- [[option-value-moneyness-put-call-parity|Option Value, Moneyness, And Put-Call Parity]] — Quote fields are only the start; value decomposition and put-call parity are the pricing language.
+- [[single-leg-payoff|Single-Leg Payoff Structure]] — Expiration payoff turns quote fields into a comparable risk shape.
+- [[greeks-introduction|Introduction To Greeks]] — The Greeks explain why a quote moves with price, time, and volatility.
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — OI describes standing positioning, the positioning language beyond the quote.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

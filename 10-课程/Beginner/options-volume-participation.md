@@ -79,6 +79,13 @@ Volume 放大但 Flow 分类不明确，可能是换仓、平仓、多腿或事�
 - Volume 本身不带方向。
 - Volume 应用于确认，不应用于预测。
 
+## 相关概念
+
+- [[open-interest-oi|OI 未平仓量：期权仓位账本]] — Volume 相对 OI 的比值衡量当日换手强度。
+- [[options-flow-direction|Flow：期权成交分类怎么读]] — 参与度说明活动量，方向说明活动在买卖哪一侧。
+- [[aggregate-options-data|Aggregate Data：总量结构怎么读]] — 聚合数据把单腿参与度转化为可比较的市场级读数。
+- [[volume-profile-value-area-hvn-lvn|成交量分布：价值区、HVN 与 LVN]] — Volume 的时间与价格分布回答活动发生在哪里，而非只是有多少。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -132,6 +139,13 @@ For futures traders, volume is an options-participation filter. Only when relate
 
 - Volume has no direction by itself.
 - Use volume for confirmation, not prediction.
+
+## Related Concepts
+
+- [[open-interest-oi|OI Open Interest: The Options Position Ledger]] — The volume-to-OI ratio measures how intense same-day turnover is.
+- [[options-flow-direction|Flow: How To Read Classified Options Trading]] — Participation shows how much activity there is; direction shows which side it is on.
+- [[aggregate-options-data|Aggregate Data: How To Read The Total Structure]] — Aggregate data turns single-leg participation into comparable market-wide readings.
+- [[volume-profile-value-area-hvn-lvn|Volume Profile: Value Area, HVN, And LVN]] — Volume's time and price distribution answers where activity happened, not only how much.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.

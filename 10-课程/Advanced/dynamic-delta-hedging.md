@@ -4,7 +4,7 @@ title_en: "Dynamic Delta Hedging And Path Risk"
 slug: "dynamic-delta-hedging"
 type: lesson
 level: Advanced
-order: 63
+order: 65
 track: risk-performance-and-hedging
 track_label: "风险、绩效与对冲"
 reading_time: "21 分钟"
@@ -99,6 +99,13 @@ Long Gamma 组合在标的上涨后 Delta 往正方向移动、下跌后往负�
 - 第三步：成交后做完整盈亏归因，并用残差检查模型或数据问题。
 - 动态对冲不能消除所有风险，本课也不规定任何账户应采用的频率或规模。
 
+## 相关概念
+
+- [[delta-curve|Delta 曲线：从 Buy Call 推导方向敏感度]] — 对冲比例来自当前 Delta，而不是固定常数。
+- [[gamma-convexity|Gamma 与凸性：为什么买方 Long Gamma]] — Gamma 决定标的移动后 Delta 偏移多快，从而决定再平衡频率。
+- [[discrete-hedging-error-transaction-costs|离散对冲误差与交易成本：连续理论如何落到有限成交]] — 再平衡越频繁，离散化与成本的对冲误差越小但成本越高。
+- [[futures-flow-from-options-positioning|期权定位如何传导到期货价格]] — 对冲再平衡是期权仓位影响期货价格的实际路径。
+
 > [!warning] 风险说明
 > 本内容仅用于学习金融市场、风险管理与衍生品机制，不构成投资、交易、税务或法律建议。模型、指标与历史样本都可能失效；采取任何行动前，请核对当前合约规则、数据口径、成本与自身风险承受能力。
 
@@ -172,6 +179,13 @@ After each rebalance, separately record option repricing, underlying-hedge P&L, 
 - Step 2: Set scenario thresholds using gamma, liquidity, gap risk, and costs.
 - Step 3: Perform full P&L attribution after execution and use residuals to check model or data issues.
 - Dynamic hedging cannot remove all risk, and this lesson prescribes no frequency or size for any account.
+
+## Related Concepts
+
+- [[delta-curve|Delta Curve: Deriving Directional Sensitivity From A Buy Call]] — The hedge ratio comes from current delta rather than a fixed constant.
+- [[gamma-convexity|Gamma And Convexity: Why Buyers Are Long Gamma]] — Gamma decides how fast delta drifts after a move, and therefore the rebalancing frequency.
+- [[discrete-hedging-error-transaction-costs|Discrete Hedging Error And Transaction Costs: Bringing Continuous Theory To Finite Trades]] — More frequent rebalancing shrinks discretization error while raising cost.
+- [[futures-flow-from-options-positioning|How Options Positioning Transmits Into Futures Prices]] — Hedge rebalancing is the actual path by which option positioning affects futures prices.
 
 > [!warning] Risk disclosure
 > This content is for learning about financial markets, risk management, and derivatives mechanics only. It is not investment, trading, tax, or legal advice. Models, indicators, and historical samples can fail; verify current contract rules, data conventions, costs, and your own risk capacity before taking action.
