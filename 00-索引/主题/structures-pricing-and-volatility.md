@@ -4,7 +4,7 @@ title_en: "Structures, Pricing And Volatility"
 type: track
 track: structures-pricing-and-volatility
 access: public
-lessons: 16
+lessons: 18
 tags:
   - "文档中心"
   - "主题索引"
@@ -22,11 +22,11 @@ generated: 2026-09-15
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[知识课程总览|课程总览]]
 
-**主题轨道 · 16 课**
+**主题轨道 · 18 课**
 
 价差与组合结构、无套利与合成、事件波动率、远期与基差、概率测度与定价模型、波动率曲面与期限结构、日历与蝶式结构。
 
-共 16 课。
+共 18 课。
 
 - [[option-spread-structures|价差与组合结构]] — 中级 · 16 分钟
 - [[no-arbitrage-and-synthetics|无套利边界与合成头寸]] — 中级 · 20 分钟
@@ -44,6 +44,8 @@ generated: 2026-09-15
 - [[calendar-diagonal-butterfly-condor|Calendar、Diagonal、Butterfly、Condor 与 Iron Condor]] — 高级 · 24 分钟
 - [[christmas-tree-and-ladder-spreads|Christmas Tree 与 Ladder：先核对腿部口径]] — 高级 · 22 分钟
 - [[time-butterfly-term-structure|Time Butterfly：期限曲率与三到期日重估]] — 高级 · 24 分钟
+- [[expected-move-intraday-sigma|盘中预期波动区间（±1σ）]] — 高级 · 18 分钟
+- [[expiry-week-liquidity-migration|到期周的流动性迁移：0DTE 到 1DTE 的重心转移]] — 高级 · 19 分钟
 
 ---
 
@@ -67,3 +69,5 @@ Spread and multi-leg structures, no-arbitrage and synthetics, event volatility, 
 - [[calendar-diagonal-butterfly-condor|Calendars, Diagonals, Butterflies, Condors, And Iron Condors]] — Advanced · 24 min
 - [[christmas-tree-and-ladder-spreads|Christmas Tree And Ladder Spreads: Verify The Leg Convention]] — Advanced · 22 min
 - [[time-butterfly-term-structure|Time Butterflies: Term Curvature And Three-Expiry Revaluation]] — Advanced · 24 min
+- [[expected-move-intraday-sigma|The Intraday Expected Move (±1σ)]] — Advanced · 18 min
+- [[expiry-week-liquidity-migration|Expiry-Week Liquidity Migration: How Weight Shifts From 0DTE To 1DTE]] — Advanced · 19 min

@@ -4,7 +4,7 @@ title_en: "Order Flow And Market Microstructure"
 type: track
 track: order-flow-and-microstructure
 access: public
-lessons: 9
+lessons: 12
 tags:
   - "文档中心"
   - "主题索引"
@@ -22,11 +22,11 @@ generated: 2026-09-15
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[知识课程总览|课程总览]]
 
-**主题轨道 · 9 课**
+**主题轨道 · 12 课**
 
 订单类型与订单簿、拍卖理论、Footprint／Delta／CVD、成交量分布、吸收与流动性事件，以及库存与做市模型。
 
-共 9 课。
+共 12 课。
 
 - [[market-orders-limit-orders-bid-ask|市价单、限价单与买卖报价]] — 初级 · 15 分钟
 - [[order-book-depth-and-resting-liquidity|订单簿、深度与挂单流动性]] — 初级 · 16 分钟
@@ -37,6 +37,9 @@ generated: 2026-09-15
 - [[avellaneda-stoikov-market-making|Avellaneda–Stoikov 做市模型：库存偏移、价差与校准]] — 高级 · 28 分钟
 - [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 高级 · 20 分钟
 - [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 高级 · 20 分钟
+- [[volatility-surface-elasticity|波动率曲面弹性：成交如何变成波动率供给]] — 高级 · 22 分钟
+- [[orderflow-velocity-and-thresholds|订单流测量的三种类型：累计、净额与速度]] — 高级 · 19 分钟
+- [[intraday-surface-elasticity-session-log|盘中曲面弹性复盘：把吸收与重定价记录成可核对的时间线]] — 高级 · 18 分钟
 
 ---
 
@@ -53,3 +56,6 @@ Order types and the order book, auction theory, footprint, delta and cumulative 
 - [[avellaneda-stoikov-market-making|Avellaneda–Stoikov Market Making: Inventory Skew, Spread, And Calibration]] — Advanced · 28 min
 - [[absorption-exhaustion-and-iceberg-orders|Absorption, Exhaustion, And Iceberg Orders]] — Advanced · 20 min
 - [[liquidity-sweeps-stop-runs-trapped-traders|Liquidity Sweeps, Stop Runs, And Trapped Traders]] — Advanced · 20 min
+- [[volatility-surface-elasticity|Volatility Surface Elasticity: How Trading Becomes Volatility Supply]] — Advanced · 22 min
+- [[orderflow-velocity-and-thresholds|Three Measurement Types In Options Flow: Cumulative, Net And Velocity]] — Advanced · 19 min
+- [[intraday-surface-elasticity-session-log|Intraday Surface-Elasticity Log: Recording Absorption And Repricing As A Checkable Timeline]] — Advanced · 18 min

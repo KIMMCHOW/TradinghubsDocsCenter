@@ -28,7 +28,7 @@ generated: 2026-09-15
 
 > [!info] 导航 / Navigation
 > [[文档中心]] · [[level-advanced|高级]] · [[futures-and-options-linkage|期货与期权衔接]]
-> 上一课：[[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]]
+> 上一课：[[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]] ｜ 下一课：[[volatility-surface-elasticity|波动率曲面弹性：成交如何变成波动率供给]]
 
 **高级 · 期货与期权衔接 · 22 分钟**
 

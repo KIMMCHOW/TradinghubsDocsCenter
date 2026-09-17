@@ -69,6 +69,9 @@ generated: 2026-09-15
 - [[avellaneda-stoikov-market-making|Avellaneda–Stoikov 做市模型：库存偏移、价差与校准]] — 高级
 - [[absorption-exhaustion-and-iceberg-orders|吸收、衰竭与冰山单]] — 高级
 - [[liquidity-sweeps-stop-runs-trapped-traders|流动性扫荡、止损猎杀与被困交易者]] — 高级
+- [[volatility-surface-elasticity|波动率曲面弹性：成交如何变成波动率供给]] — 高级
+- [[orderflow-velocity-and-thresholds|订单流测量的三种类型：累计、净额与速度]] — 高级
+- [[intraday-surface-elasticity-session-log|盘中曲面弹性复盘：把吸收与重定价记录成可核对的时间线]] — 高级
 
 ## [[structures-pricing-and-volatility|结构、定价与波动率]]
 
@@ -90,6 +93,8 @@ generated: 2026-09-15
 - [[calendar-diagonal-butterfly-condor|Calendar、Diagonal、Butterfly、Condor 与 Iron Condor]] — 高级
 - [[christmas-tree-and-ladder-spreads|Christmas Tree 与 Ladder：先核对腿部口径]] — 高级
 - [[time-butterfly-term-structure|Time Butterfly：期限曲率与三到期日重估]] — 高级
+- [[expected-move-intraday-sigma|盘中预期波动区间（±1σ）]] — 高级
+- [[expiry-week-liquidity-migration|到期周的流动性迁移：0DTE 到 1DTE 的重心转移]] — 高级
 
 ## [[greeks-and-sensitivities|Greeks 与敏感度]]
 
@@ -129,6 +134,11 @@ generated: 2026-09-15
 - [[vanna-exposure-vex|VEX：Vanna Exposure 怎么看]] — 高级
 - [[charm-exposure-chex|CHEX：Charm Exposure 怎么看]] — 高级
 - [[options-order-flow-dex-gex-convexity|期权订单流：Delta、Gamma 与凸性加权]] — 高级
+- [[zero-gamma-flip-boundary|零 Gamma / Gamma Flip 边界]] — 高级
+- [[convexity-regime-liquidity-map|凸性环境地图：多头与空头凸性下的流动性差异]] — 高级
+- [[taker-position-walls-and-squeeze-risk|持仓两侧的不对称性：墙与挤压力]] — 高级
+- [[net-exposure-balance-metrics|净敞口平衡指标：单值重心与量级门槛]] — 高级
+- [[dealer-hedging-bands-and-discrete-rebalance|对冲区间与离散再平衡：为什么对冲不是连续动作]] — 高级
 
 ## [[risk-performance-and-hedging|风险、绩效与对冲]]
 
@@ -153,4 +163,6 @@ generated: 2026-09-15
 - [[futures-contract-mechanics-tick-value|期货合约机制：最小变动、点值与展期]] — 中级
 - [[synthetic-futures-and-delta-equivalent-sizing|用期权表达期货敞口：合成结构与等值换算]] — 高级
 - [[futures-flow-from-options-positioning|期权定位如何传导到期货价格]] — 高级
+- [[index-futures-etf-level-conversion|同一价位在不同市场：指数、ETF 与期货的换算]] — 高级
+- [[cross-market-hedge-ratio-dashboard|跨市场对冲比率面板：把基差、乘数与等值手数放进同一张可核对表]] — 高级
 
